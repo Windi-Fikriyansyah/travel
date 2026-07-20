@@ -48,12 +48,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
       {/* Filter Section */}
       <section className="px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto mb-12 md:mb-16">
         <div className="flex flex-nowrap md:flex-wrap gap-4 items-center overflow-x-auto pb-4 md:pb-0 scrollbar-hide w-full">
-          <span className="font-label-lg text-label-lg uppercase text-secondary">{dict.filterBy}</span>
+          <span className="font-label-lg text-label-lg uppercase text-secondary whitespace-nowrap shrink-0">{dict.filterBy}</span>
           {filters.map((filter) => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
-              className={`px-6 py-2 font-label-md tracking-wider transition-all ${
+              className={`whitespace-nowrap shrink-0 px-6 py-2 font-label-md tracking-wider transition-all ${
                 activeFilter === filter
                   ? "border border-primary text-primary hover:bg-primary/5"
                   : "border border-outline-variant text-on-surface-variant hover:border-primary"
