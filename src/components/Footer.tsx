@@ -11,7 +11,7 @@ export default function Footer({ dict, lang }: { dict: Dictionary['footer'], lan
             {dict.copyright}
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-x-16 gap-y-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-12 w-full md:w-auto">
           <div className="flex flex-col gap-4">
             <p className="font-label-lg text-label-lg text-on-surface">{dict.explore}</p>
             <Link href="/destinations" className="text-on-surface-variant hover:text-secondary font-label-md transition-all">{dict.destinations}</Link>
@@ -26,7 +26,7 @@ export default function Footer({ dict, lang }: { dict: Dictionary['footer'], lan
             <Link href="/contact" className="text-on-surface-variant hover:text-secondary font-label-md transition-all">{dict.contactUs}</Link>
           </div>
         </div>
-        <div className="flex flex-col gap-6 items-end w-full md:w-auto">
+        <div className="flex flex-col gap-6 items-start md:items-end w-full md:w-auto mt-8 md:mt-0">
           <p className="font-label-lg text-label-lg text-on-surface">{dict.newsletter}</p>
           <div className="flex border-b border-outline w-full max-w-sm focus-within:border-primary transition-colors">
             <input 

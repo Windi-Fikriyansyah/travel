@@ -68,6 +68,15 @@
   --font-headline-sm: "Libre Caslon Text", serif;
 }
 
+@media (max-width: 768px) {
+  :root {
+    --spacing-content-gap: 32px;
+    --spacing-section-gap: 64px;
+    --spacing-margin-mobile: 16px;
+    --spacing-gutter: 16px;
+  }
+}
+
 @layer utilities {
   .text-body-lg {
     font-size: 18px;
@@ -97,8 +106,8 @@
     font-weight: 400;
   }
   .text-headline-lg {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: clamp(32px, 5vw, 40px);
+    line-height: clamp(40px, 5vw, 48px);
     font-weight: 400;
   }
   .text-body-sm {
@@ -107,8 +116,8 @@
     font-weight: 400;
   }
   .text-display-lg {
-    font-size: 64px;
-    line-height: 72px;
+    font-size: clamp(40px, 6vw, 64px);
+    line-height: clamp(48px, 6vw, 72px);
     letter-spacing: -0.02em;
     font-weight: 400;
   }

@@ -14,7 +14,7 @@ export default async function About() {
     <>
       <ScrollReveal />
       {/* Hero Section */}
-      <section className="relative w-full h-[716px] flex items-center overflow-hidden">
+      <section className="relative w-full h-[500px] md:h-[716px] flex items-center overflow-hidden">
         <div className="container mx-auto px-margin-mobile md:px-margin-desktop relative z-10 text-center">
           <span className="font-label-lg text-label-lg text-primary mb-4 block uppercase tracking-widest">{aboutDict.legacyLabel}</span>
           <h1 className="font-display-lg text-display-lg md:text-[80px] leading-tight max-w-4xl mx-auto mb-8">

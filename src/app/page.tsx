@@ -13,7 +13,7 @@ export default async function Home() {
     <>
       <ScrollReveal />
       {/* Hero Section */}
-      <section className="relative w-full h-[870px] overflow-hidden flex items-center justify-center px-margin-mobile md:px-margin-desktop">
+      <section className="relative w-full h-[500px] md:h-[870px] overflow-hidden flex items-center justify-center px-margin-mobile md:px-margin-desktop">
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full scale-105 transform transition-transform duration-[10s] hover:scale-100 relative">
             <Image src="/hero.jpg" alt="A breathtaking, cinematic wide shot of crystal-clear turquoise ocean waves crashing gently onto a pristine white sand beach." fill priority className="object-cover" />
@@ -65,7 +65,7 @@ export default async function Home() {
 
       {/* Wide Beach Visual */}
       <section className="w-full px-0 md:px-margin-desktop py-base">
-        <div className="w-full h-[600px] overflow-hidden relative">
+        <div className="w-full h-[300px] md:h-[600px] overflow-hidden relative">
           <Image src="/pulau.jpg" fill className="object-cover" alt="Pulau Island" sizes="100vw" />
         </div>
       </section>

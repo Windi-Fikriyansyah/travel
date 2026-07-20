@@ -34,7 +34,7 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
   return (
     <>
       {/* Hero Header */}
-      <header className="pt-40 pb-20 px-margin-desktop max-w-[1440px] mx-auto">
+      <header className="pt-32 pb-16 md:pt-40 md:pb-20 px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto">
         <div id="hero-text" className="max-w-3xl">
           <h1 className="font-display-lg text-display-lg mb-6 leading-tight">
             {dict.heroTitle1} <br /><span className="italic text-primary">{dict.heroTitle2}</span>
@@ -46,8 +46,8 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
       </header>
 
       {/* Filter Section */}
-      <section className="px-margin-desktop max-w-[1440px] mx-auto mb-16">
-        <div className="flex flex-wrap gap-4 items-center">
+      <section className="px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto mb-12 md:mb-16">
+        <div className="flex flex-nowrap md:flex-wrap gap-4 items-center overflow-x-auto pb-4 md:pb-0 scrollbar-hide w-full">
           <span className="font-label-lg text-label-lg uppercase text-secondary">{dict.filterBy}</span>
           {filters.map((filter) => (
             <button
@@ -66,8 +66,8 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
       </section>
 
       {/* Bento-ish Grid for Packages */}
-      <main className="px-margin-desktop max-w-[1440px] mx-auto pb-section-gap">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter gap-y-16">
+      <main className="px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto pb-section-gap">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter gap-y-16">
           {/* Card 1: Amalfi Coast */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
@@ -205,8 +205,8 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
       </main>
 
       {/* Call to Action Section */}
-      <section className="bg-surface-container-low py-section-gap">
-        <div className="px-margin-desktop max-w-[1440px] mx-auto text-center">
+      <section className="bg-surface-container-low py-section-gap px-margin-mobile md:px-margin-desktop">
+        <div className="max-w-[1440px] mx-auto text-center">
           <h2 className="font-display-lg text-display-lg mb-8">{dict.ctaTitle1} <span className="italic">{dict.ctaTitle2}</span></h2>
           <p className="font-body-lg text-body-lg max-w-2xl mx-auto mb-10 text-on-surface-variant">
             {dict.ctaSubtitle}
