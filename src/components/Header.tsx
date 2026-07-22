@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { Dictionary } from '@/dictionaries';
@@ -46,12 +47,14 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
         <div className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 md:py-8 max-w-[1440px] mx-auto relative z-50 bg-surface/90 md:bg-transparent">
           <div className="flex gap-6 items-center flex-1 md:flex-none">
             <nav className="hidden md:flex gap-8">
-              <Link href="#" className={getLinkClass("/blog")}>{dict.blog}</Link>
+              <Link href="/" className={getLinkClass("/")}>{dict.home}</Link>
               <Link href="/destinations" className={getLinkClass("/destinations")}>{dict.destinations}</Link>
               <Link href="#" className={getLinkClass("/services")}>{dict.services}</Link>
             </nav>
           </div>
-          <Link href="/" className="font-headline-sm text-headline-sm text-primary dark:text-primary-fixed italic tracking-tight">{dict.logo}</Link>
+          <Link href="/" className="flex items-center">
+            <Image src="/assets/logo.png" alt={dict.logo} width={250} height={80} className="h-8 md:h-10 w-auto object-contain scale-[1.5] md:scale-[2] origin-center" />
+          </Link>
           <div className="flex gap-6 items-center flex-1 md:flex-none justify-end">
             <nav className="hidden md:flex gap-8 items-center">
               <Link href="/about" className={getLinkClass("/about")}>{dict.about}</Link>
@@ -89,7 +92,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
           <Link onClick={() => setIsMenuOpen(false)} href="/about" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.about}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="/contact" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.contact}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="#" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.services}</Link>
-          <Link onClick={() => setIsMenuOpen(false)} href="#" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.blog}</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.home}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="#" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.faq}</Link>
           
           {/* Mobile Language Switcher */}

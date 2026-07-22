@@ -1,6 +1,6 @@
 {
   "header": {
-    "blog": "Blog",
+    "home": "Beranda",
     "destinations": "Destinasi",
     "services": "Layanan",
     "about": "Tentang",
@@ -9,19 +9,17 @@
     "logo": "Palmer Travel"
   },
   "footer": {
-    "logo": "Palmer Travel",
-    "copyright": "© 2024 Palmer Travel. Mengurasi perjalanan tak terlupakan. Dibuat untuk pengembara modern dengan selera yang berkelas.",
-    "explore": "JELAJAHI",
-    "destinations": "Destinasi",
-    "experiences": "Pengalaman",
-    "ourStory": "Kisah Kami",
-    "support": "DUKUNGAN",
-    "privacyPolicy": "Kebijakan Privasi",
-    "termsOfService": "Syarat & Ketentuan",
-    "sustainability": "Keberlanjutan",
-    "contactUs": "Hubungi Kami",
-    "newsletter": "BUPLET",
-    "emailPlaceholder": "Alamat Email"
+    "logo": "Travoscape",
+    "description": "The Langkah Travel lahir pada tahun 2012 karena sebuah pemikiran yang dilandasi dengan keahlian dan keinginan untuk memberikan pelayanan terbaik bagi customer The Langkah Travel",
+    "reviews": "ulasan",
+    "companyName": "PT Langkah Liburan Bersama",
+    "sumbawaAddress": "Jalan Hijrah Gang Ganista 1 Nomor 2 Kelurahan Brang Bara, Sumbawa Besar, NTB - 84314",
+    "lombokAddress": "Jalan DR. Sutomo Nomor 62, Kelurahan Karang Baru, Kota Mataram, NTB - 83123",
+    "copyright": "© 2026 PT Langkah Liburan Bersama",
+    "aboutUs": "Tentang Kami",
+    "termsAndConditions": "Syarat & Ketentuan",
+    "blog": "Blog",
+    "contact": "Kontak"
   },
   "home": {
     "heroLine1": "Kami akan membantu Anda",
@@ -126,5 +124,15 @@
     "planVisitTitle": "Rencanakan Kunjungan",
     "planVisitDesc": "Studio kami buka Senin hingga Jumat, 09:00 hingga 18:00 CET. Kami menyarankan untuk memesan konsultasi pribadi terlebih dahulu.",
     "openMap": "Buka di Google Maps"
+  },
+  "packages": {
+    "title": "Pilihan Paket Wisata Di Lombok",
+    "description": "Paket Tour Lombok bersama The Langkah Travel dengan destinasi terlengkap dan pilihan paket wisata yang beragam. Mulai dari Paket liburan Lombok 3 hari 2 malam hingga 5 hari 4 malam.",
+    "pkg1": "Paket Wisata Gili Trawangan",
+    "pkg2": "Paket Wisata Group Lombok",
+    "pkg3": "Paket Honeymoon Lombok",
+    "pkg4": "Tour Lombok 1 Hari",
+    "pkg5": "Paket Tour Lombok",
+    "pkg6": "Sewa Mobil & Jasa Transportasi Lombok"
   }
 }

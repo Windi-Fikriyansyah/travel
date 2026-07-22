@@ -1,6 +1,6 @@
 {
   "header": {
-    "blog": "Blog",
+    "home": "Home",
     "destinations": "Destinations",
     "services": "Services",
     "about": "About",
@@ -9,19 +9,17 @@
     "logo": "Palmer Travel"
   },
   "footer": {
-    "logo": "Palmer Travel",
-    "copyright": "© 2024 Palmer Travel. Curating unforgettable journeys. Built for the modern wanderer with a taste for the refined.",
-    "explore": "EXPLORE",
-    "destinations": "Destinations",
-    "experiences": "Experiences",
-    "ourStory": "Our Story",
-    "support": "SUPPORT",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "sustainability": "Sustainability",
-    "contactUs": "Contact Us",
-    "newsletter": "NEWSLETTER",
-    "emailPlaceholder": "Email Address"
+    "logo": "Travoscape",
+    "description": "The Langkah Travel was born in 2012 from an idea based on expertise and a desire to provide the best service for The Langkah Travel customers",
+    "reviews": "reviews",
+    "companyName": "PT Langkah Liburan Bersama",
+    "sumbawaAddress": "Jalan Hijrah Gang Ganista 1 Nomor 2 Kelurahan Brang Bara, Sumbawa Besar, NTB - 84314",
+    "lombokAddress": "Jalan DR. Sutomo Nomor 62, Kelurahan Karang Baru, Kota Mataram, NTB - 83123",
+    "copyright": "© 2026 PT Langkah Liburan Bersama",
+    "aboutUs": "About Us",
+    "termsAndConditions": "Terms & Conditions",
+    "blog": "Blog",
+    "contact": "Contact"
   },
   "home": {
     "heroLine1": "We're going to help you",
@@ -126,5 +124,15 @@
     "planVisitTitle": "Plan a Visit",
     "planVisitDesc": "Our studio is open Monday through Friday, 9:00 AM to 6:00 PM CET. We recommend booking a private consultation in advance.",
     "openMap": "Open in Google Maps"
+  },
+  "packages": {
+    "title": "Lombok Tour Package Options",
+    "description": "Lombok Tour Packages with The Langkah Travel featuring comprehensive destinations and diverse options. Ranging from 3 days 2 nights to 5 days 4 nights holidays.",
+    "pkg1": "Gili Trawangan Tour Package",
+    "pkg2": "Lombok Group Tour Package",
+    "pkg3": "Lombok Honeymoon Package",
+    "pkg4": "1 Day Lombok Tour",
+    "pkg5": "Lombok Tour Package",
+    "pkg6": "Car Rental & Transport Services"
   }
 }
