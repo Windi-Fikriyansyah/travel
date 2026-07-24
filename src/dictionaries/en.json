@@ -10,7 +10,7 @@
   },
   "footer": {
     "logo": "Travoscape",
-    "description": "The Langkah Travel was born in 2012 from an idea based on expertise and a desire to provide the best service for The Langkah Travel customers",
+    "description": "Born from a passion for travel and a deep appreciation for Lombok, Travoscape was created to make discovering the island easier, more authentic, and tailored to every traveler's unique journey.",
     "reviews": "reviews",
     "companyName": "PT Langkah Liburan Bersama",
     "sumbawaAddress": "Jalan Hijrah Gang Ganista 1 Nomor 2 Kelurahan Brang Bara, Sumbawa Besar, NTB - 84314",
@@ -46,18 +46,20 @@
     "legacyLabel": "Our Legacy",
     "heroLine1": "Crafting the world's most intimate",
     "heroLine2": "travel narratives.",
-    "storyTitle": "The Story of Palmer Travel",
-    "storyP1": "Founded in 1994, Palmer Travel began with a singular belief: that travel is not a commodity, but a collection of carefully curated chapters. What started as a small boutique consultancy in a sun-drenched coastal town has evolved into a global authority on high-end leisure.",
-    "storyP2": "We don't just book flights or reserve suites. We curate environments. Our founders, seasoned explorers themselves, realized that the best memories aren't found in a brochure, but in the quiet moments between the landmarks—the scent of a lemon grove in Sorrento, the silence of a desert night in Namibia.",
-    "storyQuote": "\"We are not travel agents. We are storytellers whose ink is the horizon.\"",
-    "valuesTitle": "Our Values",
+    "storyTitle": "The Story of Travoscape",
+    "storyP1": "Travoscape began with a simple idea shared by a group of young travelers who kept finding themselves drawn back to Lombok. Every visit revealed something new—hidden beaches, quiet villages, breathtaking landscapes, and genuine connections with the local people.",
+    "storyP2": "The more we explored, the more we realized that many visitors spent too much time figuring out transportation, finding trustworthy local guides, or planning where to go next. We believed discovering Lombok should feel exciting, not overwhelming.",
+    "storyP3": "That belief became Travoscape.",
+    "storyP4": "Rather than offering one-size-fits-all tours, we focus on creating seamless travel experiences tailored to each traveler. Whether it's a private day trip, an island-hopping adventure, or a fully personalized itinerary, our goal is simple: to make exploring Lombok effortless, authentic, and memorable.",
+    "storyP5": "Today, Travoscape works alongside trusted local partners to help visitors experience the island beyond the usual tourist routes—connecting every journey with the heart of Lombok.",
+    "valuesTitle": "Core Values",
     "val1Title": "Conscious Luxury",
     "val1Desc": "We believe in travel that respects the soul of a destination. Our sustainability mission ensures that the beauty we share today remains for the voyagers of tomorrow.",
     "val2Title": "Invisible Service",
     "val2Desc": "Exceptional travel feels effortless. We work behind the scenes to orchestrate every detail, so you can remain entirely present in your journey.",
     "val3Title": "Authentic Connection",
     "val3Desc": "We prioritize local heritage over generic luxury. Our connections grant access to the hidden doorways and private tables of the world.",
-    "whyTitle": "Why Palmer Travel?",
+    "whyTitle": "Why Choose Us?",
     "why1Title": "Bespoke Curation",
     "why1Desc": "No two itineraries are identical. Each trip is hand-stitched to your specific tastes, rhythms, and dreams.",
     "why2Title": "24/7 Global Liaison",
@@ -81,12 +83,13 @@
     "wellness": "Wellness",
     "featured": "Featured",
     "limited": "Limited",
-    "amalfiDesc": "A seven-day immersive journey through hidden coves, private lemon groves, and historic cliffside villas.",
-    "baliDesc": "Find your center with a curated wellness retreat in the heart of Ubud’s emerald terraces.",
-    "icelandDesc": "Traverse the otherworldly landscapes of Iceland under the dance of the Aurora.",
-    "tuscanyDesc": "A culinary exploration of the Chianti region, featuring private tastings and masterclasses.",
-    "santoriniDesc": "Quiet luxury in the Cyclades, away from the crowds. Private yachts and sunset dinners.",
-    "kyotoDesc": "Immerse yourself in the ancient rituals of Japan, from tea ceremonies to temple stays.",
+    "giliEscapeDesc": "Experience the beauty of Lombok's most iconic islands in one unforgettable day.",
+    "secretGiliDesc": "Escape the crowds and uncover Lombok's best-kept island secrets with Secret Gili Expedition.",
+    "pinkBeachDesc": "Discover the untouched beauty of Lombok's southeastern coastline with Pink Beach & Sandbar Adventure.",
+    "waterfallDesc": "Reconnect with nature on a refreshing journey through Lombok's lush rainforest and hidden waterfalls.",
+    "senaruSembalunDesc": "Journey into the breathtaking highlands of Northern Lombok with Explore Senaru & Sembalun.",
+    "mandalikaDesc": "Go beyond the beaches and discover the traditions, craftsmanship, and timeless beauty that define Lombok with the Mandalika Heritage Tour.",
+    "westLombokDesc": "Experience the timeless beauty of Lombok's western coastline with West Lombok Scenic Escape.",
     "bookNow": "Book Now",
     "ctaTitle1": "Ready for your",
     "ctaTitle2": "next chapter?",
@@ -96,10 +99,10 @@
   },
   "contact": {
     "getInTouch": "Get In Touch",
-    "heroTitle1": "We're here to",
-    "heroTitle2": "design",
-    "heroTitle3": "your story.",
-    "heroSubtitle": "Whether you're dreaming of a secluded coastal escape or a high-energy urban adventure, our curators are ready to bring your vision to life.",
+    "heroTitle1": "Let's Plan",
+    "heroTitle2": "Something",
+    "heroTitle3": "Unforgettable.",
+    "heroSubtitle": "From hidden beaches and island adventures to cultural experiences and mountain escapes, our local team is ready to help you discover the best of Lombok—your way.",
     "formTitle": "Send a Message",
     "labelName": "FULL NAME",
     "labelEmail": "EMAIL ADDRESS",
@@ -126,13 +129,660 @@
     "openMap": "Open in Google Maps"
   },
   "packages": {
-    "title": "Lombok Tour Package Options",
-    "description": "Lombok Tour Packages with The Langkah Travel featuring comprehensive destinations and diverse options. Ranging from 3 days 2 nights to 5 days 4 nights holidays.",
-    "pkg1": "Gili Trawangan Tour Package",
-    "pkg2": "Lombok Group Tour Package",
-    "pkg3": "Lombok Honeymoon Package",
-    "pkg4": "1 Day Lombok Tour",
-    "pkg5": "Lombok Tour Package",
-    "pkg6": "Car Rental & Transport Services"
+    "title": "Travoscape Experiences",
+    "description": "Whether you are seeking island-hopping adventures, cultural immersions, or simply a relaxing day by the beach, our packages are designed to let you experience the very best of Lombok. Select from our carefully curated journeys.",
+    "pkg1": "Island Escapes",
+    "pkg2": "Cultural Immersions",
+    "pkg3": "Nature Treks",
+    "pkg4": "Beach Getaways",
+    "pkg5": "Photography Tours",
+    "pkg6": "Custom Itineraries",
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "What is included in your tour packages?",
+        "a": "Our tour packages typically include private transportation with an English-speaking driver, hotel pickup and drop-off, fuel, and parking fees. Some packages also include a dedicated tour guide, boat charters, and entrance fees as specified in the itinerary."
+      },
+      {
+        "q": "Are your tours private or shared?",
+        "a": "All our tours are 100% private. We do not group you with strangers. Your experience is exclusive to you and your travel companions."
+      },
+      {
+        "q": "Can I customize the itinerary?",
+        "a": "Absolutely! We specialize in personalized journeys. You can modify any of our existing packages or we can build a completely new itinerary based on your interests."
+      },
+      {
+        "q": "Do you provide airport transfers?",
+        "a": "Yes, we offer reliable airport transfer services to and from Lombok International Airport (LOP) to any destination in Lombok."
+      },
+      {
+        "q": "How do I book a tour?",
+        "a": "You can book directly by clicking the 'Book Now' button on any of our tour pages, which will direct you to our WhatsApp. We will confirm your details and arrange everything for you."
+      }
+    ]
+  },
+  "giliEscape": {
+    "title": "Gili Islands Escape",
+    "overviewTitle": "Overview",
+    "overviewP1": "Experience the beauty of Lombok's most iconic islands in one unforgettable day. Gili Islands Escape takes you across the crystal-clear waters of Gili Trawangan, Gili Air, and Gili Meno, where you'll discover vibrant coral reefs, white sandy beaches, and the laid-back island atmosphere that has made the Gilis famous worldwide.",
+    "overviewP2": "Whether you're snorkeling with tropical marine life, cycling around the islands, or simply relaxing by the turquoise sea, this private island-hopping experience is designed to offer the perfect balance of adventure and relaxation. With a private driver, island-hopping boat, and trusted local expertise, all you need to do is enjoy the journey.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Gili Trawangan",
+      "Gili Air",
+      "Gili Meno",
+      "Private Island Hopping Boat",
+      "Snorkeling at Coral Reefs",
+      "Turtle Spot (Weather Permitting)",
+      "Bicycle Ride (Optional)",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "Gili Islands Escape Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Begin your journey with a comfortable pickup from your hotel and enjoy a scenic drive to Bangsal Harbor, the gateway to Lombok's famous Gili Islands."
+      },
+      {
+        "title": "Private Boat to the Gili Islands",
+        "desc": "Board your private island-hopping boat and cruise across the turquoise waters, surrounded by breathtaking coastal scenery and fresh ocean breeze."
+      },
+      {
+        "title": "Explore Gili Air",
+        "desc": "Your first stop is Gili Air, known for its crystal-clear waters, colorful coral reefs, and relaxed island atmosphere. Spend time snorkeling, swimming, or simply enjoying the beautiful white-sand beach."
+      },
+      {
+        "title": "Discover Gili Meno",
+        "desc": "Continue to Gili Meno, the quietest and most peaceful of the three islands. Explore vibrant coral gardens and, if weather and sea conditions allow, encounter sea turtles in their natural habitat."
+      },
+      {
+        "title": "Beachfront Lunch",
+        "desc": "Enjoy lunch at a local beachfront restaurant while taking in panoramic ocean views and the laid-back atmosphere of the Gili Islands."
+      },
+      {
+        "title": "Experience Gili Trawangan",
+        "desc": "End your island-hopping adventure at Gili Trawangan, the largest and liveliest of the Gili Islands. Relax on the beach, explore charming cafés and boutiques, or rent a bicycle to discover the island at your own pace."
+      },
+      {
+        "title": "Return to Lombok",
+        "desc": "Board your private boat back to Bangsal Harbor before returning comfortably to your hotel, bringing home unforgettable memories of Lombok's tropical island paradise."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "Private Island Hopping Boat",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Snorkeling Equipment",
+      "Fuel",
+      "Parking Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Personal Expenses",
+      "Bicycle Rental (Optional)"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily, subject to availability and weather conditions.",
+      "Suitable for solo travelers, couples, families, and small groups.",
+      "Turtle sightings are subject to weather, sea conditions, and marine life activity.",
+      "Please bring swimwear, sunscreen, sunglasses, a towel, and a change of clothes.",
+      "The itinerary and snorkeling locations may be adjusted depending on weather and sea conditions to ensure the safest and best possible experience."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "First-Time Visitors to Lombok",
+      "Couples & Honeymooners",
+      "Families",
+      "Snorkeling Enthusiasts",
+      "Island Hopping Lovers",
+      "Nature & Ocean Explorers"
+    ],
+    "ctaTitle": "Ready to Explore the Gili Islands?",
+    "ctaDesc": "Discover the turquoise waters, vibrant marine life, and laid-back charm of Gili Air, Gili Meno, and Gili Trawangan in one seamless island-hopping adventure. Let Travoscape handle every detail while you relax, explore, and create unforgettable memories across Lombok's most iconic tropical islands."
+  },
+  "secretGili": {
+    "title": "Secret Gili Expedition",
+    "overviewTitle": "Overview",
+    "overviewP1": "Escape the crowds and uncover Lombok's best-kept island secrets with Secret Gili Expedition. This full-day adventure takes you to the tranquil islands of Gili Nanggu, Gili Sudak, and Gili Kedis, where crystal-clear waters, vibrant coral reefs, and untouched white-sand beaches create the perfect tropical getaway.",
+    "overviewP2": "Far from the busy tourist hotspots, these hidden islands offer a peaceful atmosphere ideal for snorkeling, swimming, and simply enjoying nature at your own pace. Whether you're seeking relaxation or underwater adventure, Secret Gili Expedition delivers an authentic island experience with the comfort of private transportation and a dedicated island-hopping boat.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Gili Nanggu",
+      "Gili Sudak",
+      "Gili Kedis",
+      "Private Island Hopping Boat",
+      "Snorkeling at Crystal-Clear Reefs",
+      "White Sand Beaches",
+      "Peaceful Tropical Islands",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "Secret Gili Expedition Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Begin your adventure with a comfortable pickup from your hotel before heading towards Tawun Harbor, the starting point of your island-hopping journey."
+      },
+      {
+        "title": "Private Boat to the Secret Gilis",
+        "desc": "Board your private boat and cruise through the calm waters of Southwest Lombok, surrounded by spectacular coastal scenery."
+      },
+      {
+        "title": "Explore Gili Nanggu",
+        "desc": "Your first destination is Gili Nanggu, a secluded island famous for its turquoise waters, colorful coral reefs, and excellent snorkeling conditions. Spend time swimming, snorkeling, or simply relaxing on the pristine beach."
+      },
+      {
+        "title": "Discover Gili Sudak",
+        "desc": "Continue to Gili Sudak, a charming island known for its peaceful atmosphere and beachfront restaurants. Take in the beautiful coastal scenery while enjoying the laid-back island lifestyle."
+      },
+      {
+        "title": "Beachfront Lunch",
+        "desc": "Enjoy a delicious lunch at a local beachfront restaurant, where fresh seafood and authentic Indonesian cuisine are served with stunning ocean views."
+      },
+      {
+        "title": "Relax at Gili Kedis",
+        "desc": "Complete your journey at Gili Kedis, a tiny tropical island often referred to as one of Lombok's hidden gems. Walk around the entire island in just a few minutes, relax beneath the palm trees, or capture unforgettable photos surrounded by crystal-clear waters."
+      },
+      {
+        "title": "Return to Lombok",
+        "desc": "Board your private boat back to Tawun Harbor before returning comfortably to your hotel, ending a day filled with unforgettable island discoveries."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "Private Island Hopping Boat",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Snorkeling Equipment",
+      "Fuel",
+      "Parking Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Personal Expenses"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily, subject to weather and sea conditions.",
+      "Suitable for couples, families, and small groups.",
+      "Please bring swimwear, sunscreen, sunglasses, a towel, and a change of clothes.",
+      "The itinerary may be adjusted depending on weather and sea conditions to ensure the safest and most enjoyable experience."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "Travelers seeking hidden destinations",
+      "Couples & Honeymooners",
+      "Families",
+      "Snorkeling Enthusiasts",
+      "Nature Lovers",
+      "Travelers looking for a peaceful island escape"
+    ],
+    "ctaTitle": "Ready to Discover Lombok's Hidden Islands?",
+    "ctaDesc": "Leave the crowds behind and explore the untouched beauty of Gili Nanggu, Gili Sudak, and Gili Kedis. From crystal-clear waters and vibrant coral reefs to peaceful beaches and authentic island charm, Secret Gili Expedition offers a tropical escape you'll never forget. Let Travoscape take care of every detail while you experience one of Lombok's best-kept secrets."
+  },
+  "pinkBeach": {
+    "title": "Pink Beach & Sandbar Adventure",
+    "overviewTitle": "Overview",
+    "overviewP1": "Discover the untouched beauty of Lombok's southeastern coastline with Pink Beach & Sandbar Adventure. This full-day island-hopping experience takes you to the world-famous Pink Beach, the stunning sandbar of Gili Pasir, and the vibrant underwater paradise of Gili Petelu.",
+    "overviewP2": "Spend your day exploring some of Lombok's most picturesque coastal destinations, where pink-tinted beaches, crystal-clear waters, colorful coral reefs, and abundant marine life create an unforgettable tropical adventure. Whether you're snorkeling, relaxing on secluded beaches, or capturing breathtaking ocean views, this journey showcases one of Lombok's most extraordinary natural wonders.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Pink Beach 1",
+      "Pink Beach 2",
+      "Pink Beach 3",
+      "Gili Pasir (Sandbar)",
+      "Gili Petelu",
+      "Private Island Hopping Boat",
+      "Snorkeling at Coral Reefs",
+      "Crystal-Clear Waters",
+      "Optional Fresh Grilled Lobster Lunch",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "Pink Beach & Sandbar Adventure Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Your adventure begins with a comfortable pickup from your hotel before heading towards Tanjung Luar Harbor, the departure point for your island-hopping experience."
+      },
+      {
+        "title": "Private Boat to the Eastern Coast",
+        "desc": "Board your private boat and cruise along Lombok's spectacular eastern coastline, surrounded by breathtaking ocean views and hidden tropical islands."
+      },
+      {
+        "title": "Explore Pink Beach 1",
+        "desc": "Visit the iconic Pink Beach 1, famous for its unique pink-colored sand created by crushed red coral mixed with white sand. Relax, swim, and capture unforgettable coastal scenery."
+      },
+      {
+        "title": "Snorkeling at Gili Petelu",
+        "desc": "Continue to Gili Petelu, one of Lombok's best snorkeling destinations. Discover colorful coral reefs, tropical fish, and crystal-clear waters perfect for underwater exploration."
+      },
+      {
+        "title": "Beachfront Lunch",
+        "desc": "Enjoy lunch at a local beachfront restaurant while overlooking the turquoise sea. Optional Add-on: Upgrade your meal with a Fresh Grilled Lobster Lunch for an authentic Lombok seafood experience."
+      },
+      {
+        "title": "Visit Gili Pasir (Sandbar)",
+        "desc": "Experience the unique beauty of Gili Pasir, a small sandbar that appears during low tide. Walk across soft white sand surrounded by shallow turquoise waters—an unforgettable photo opportunity."
+      },
+      {
+        "title": "Explore Pink Beach 2",
+        "desc": "Continue your journey to Pink Beach 2, a quieter stretch of coastline offering peaceful surroundings, pristine waters, and spectacular coastal landscapes."
+      },
+      {
+        "title": "Discover Pink Beach 3",
+        "desc": "End your island adventure at Pink Beach 3, a hidden paradise perfect for relaxing, swimming, and enjoying Lombok's untouched natural beauty away from the crowds."
+      },
+      {
+        "title": "Return to Lombok",
+        "desc": "Board your private boat back to Tanjung Luar Harbor before returning comfortably to your hotel, concluding an unforgettable day exploring Lombok's eastern coastline."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "Private Island Hopping Boat",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Snorkeling Equipment",
+      "Fuel",
+      "Parking Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Fresh Grilled Lobster Lunch (Optional Add-on)",
+      "Personal Expenses"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily, subject to weather and sea conditions.",
+      "Gili Pasir is only visible during low tide, and the itinerary may be adjusted accordingly.",
+      "Please bring swimwear, sunscreen, sunglasses, a towel, and a change of clothes.",
+      "Snorkeling locations may vary depending on sea conditions to ensure the best experience."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "Beach Lovers",
+      "Couples & Honeymooners",
+      "Families",
+      "Snorkeling Enthusiasts",
+      "Photography Lovers",
+      "Travelers Looking for Hidden Coastal Gems"
+    ],
+    "ctaTitle": "Ready to Experience Lombok's Pink Paradise?",
+    "ctaDesc": "Explore the breathtaking beauty of Pink Beach, Gili Petelu, and Gili Pasir on a full-day island-hopping adventure filled with crystal-clear waters, vibrant marine life, and unforgettable coastal scenery. Let Travoscape take care of every detail while you discover one of Lombok's most spectacular hidden destinations."
+  },
+  "waterfallEscape": {
+    "title": "Hidden Waterfall Escape",
+    "overviewTitle": "Overview",
+    "overviewP1": "Reconnect with nature on a refreshing journey through Lombok's lush rainforest and hidden waterfalls. Hidden Waterfall Escape takes you beyond the coastline to discover three of Central Lombok's most breathtaking natural wonders—Benang Stokel Waterfall, Benang Kelambu Waterfall, and Sesere Waterfall.",
+    "overviewP2": "Along the way, immerse yourself in Lombok's rich cultural heritage with a visit to Sukarara Weaving Village, where generations of artisans continue the tradition of handwoven Sasak textiles. Combining authentic culture with stunning natural landscapes, this experience is perfect for travelers seeking tranquility, adventure, and a deeper connection with Lombok.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Sukarara Weaving Village",
+      "Benang Stokel Waterfall",
+      "Benang Kelambu Waterfall",
+      "Sesere Waterfall",
+      "Scenic Jungle Trek",
+      "Natural Swimming Pools",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "Hidden Waterfall Escape Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Begin your adventure with a comfortable pickup from your hotel before heading towards Central Lombok."
+      },
+      {
+        "title": "Visit Sukarara Weaving Village",
+        "desc": "Discover the rich cultural heritage of the Sasak people at Sukarara Weaving Village. Learn about the traditional weaving process, admire beautifully handcrafted textiles, and experience one of Lombok's oldest cultural traditions."
+      },
+      {
+        "title": "Explore Benang Stokel Waterfall",
+        "desc": "Continue your journey with a short jungle trek to Benang Stokel Waterfall, where multiple streams cascade down lush green cliffs, creating a peaceful natural retreat."
+      },
+      {
+        "title": "Discover Benang Kelambu Waterfall",
+        "desc": "Just a short walk away lies the spectacular Benang Kelambu Waterfall, famous for its curtain-like streams flowing gracefully through dense tropical vegetation. Enjoy the refreshing atmosphere and capture unforgettable photographs."
+      },
+      {
+        "title": "Lunch at a Local Restaurant",
+        "desc": "Take a relaxing break and enjoy authentic Indonesian cuisine at a nearby local restaurant surrounded by Lombok's beautiful countryside."
+      },
+      {
+        "title": "Visit Sesere Waterfall",
+        "desc": "Complete your waterfall adventure at the hidden Sesere Waterfall, a secluded natural escape offering a peaceful atmosphere away from the crowds. Relax by the crystal-clear water and soak in the untouched beauty of Lombok's rainforest."
+      },
+      {
+        "title": "Return to Hotel",
+        "desc": "After an unforgettable day surrounded by nature and culture, enjoy a comfortable drive back to your hotel."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Fuel",
+      "Parking Fees",
+      "Entrance Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Personal Expenses"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily, subject to weather conditions.",
+      "Moderate walking and short jungle trekking are required.",
+      "Please wear comfortable walking shoes or sandals with good grip.",
+      "Bring swimwear, a towel, sunscreen, insect repellent, and a change of clothes if you wish to swim."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "Nature Lovers",
+      "Adventure Seekers",
+      "Couples & Honeymooners",
+      "Families",
+      "Photography Enthusiasts",
+      "Travelers Looking for Hidden Gems"
+    ],
+    "ctaTitle": "Ready to Chase Lombok's Hidden Waterfalls?",
+    "ctaDesc": "Escape into the heart of Lombok's lush rainforest and discover the breathtaking beauty of Benang Stokel, Benang Kelambu, and Sesere Waterfalls. From cascading waterfalls and jungle trails to authentic Sasak culture, Hidden Waterfall Escape offers the perfect blend of adventure, relaxation, and unforgettable natural beauty."
+  },
+  "senaruSembalun": {
+    "title": "Explore Senaru & Sembalun",
+    "overviewTitle": "Overview",
+    "overviewP1": "Journey into the breathtaking highlands of Northern Lombok with Explore Senaru & Sembalun, where majestic waterfalls, panoramic mountain landscapes, and authentic village charm come together in one unforgettable adventure.",
+    "overviewP2": "From the refreshing cascades of Sendang Gile and Tiu Kelep Waterfalls to the spectacular viewpoints of Bukit Selong and Pusuk Sembalun, this experience offers the perfect escape for nature lovers and outdoor enthusiasts. Discover the beauty of Mount Rinjani's foothills while exploring some of Lombok's most scenic and peaceful destinations.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Sendang Gile Waterfall",
+      "Tiu Kelep Waterfall",
+      "Bukit Selong",
+      "Pusuk Sembalun",
+      "Scenic Mount Rinjani Views",
+      "Jungle Trekking Experience",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "Explore Senaru & Sembalun Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Begin your journey with a comfortable pickup from your hotel before heading north towards the beautiful highlands of Senaru and Sembalun."
+      },
+      {
+        "title": "Explore Sendang Gile Waterfall",
+        "desc": "Start your adventure at Sendang Gile Waterfall, one of Lombok's most iconic waterfalls. Enjoy the refreshing mountain air and admire the impressive cascade surrounded by lush tropical forest."
+      },
+      {
+        "title": "Discover Tiu Kelep Waterfall",
+        "desc": "Continue with a scenic jungle trek to Tiu Kelep Waterfall, a hidden natural wonder renowned for its powerful waterfall, crystal-clear pools, and breathtaking rainforest setting."
+      },
+      {
+        "title": "Lunch with Mountain Views",
+        "desc": "Enjoy a relaxing lunch at a local restaurant while taking in the cool atmosphere and spectacular scenery of Northern Lombok."
+      },
+      {
+        "title": "Visit Bukit Selong",
+        "desc": "Head towards Bukit Selong, one of Lombok's most famous viewpoints. Capture panoramic views of colorful farmland, rolling hills, and the magnificent Mount Rinjani."
+      },
+      {
+        "title": "Explore Pusuk Sembalun",
+        "desc": "Complete your journey at Pusuk Sembalun, a peaceful viewpoint offering sweeping vistas of Sembalun Valley and the surrounding mountains. It's the perfect place to unwind and take in the beauty of Lombok's highlands."
+      },
+      {
+        "title": "Return to Hotel",
+        "desc": "Relax during the scenic drive back to your hotel after a memorable day exploring Lombok's waterfalls and mountain landscapes."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Fuel",
+      "Parking Fees",
+      "Entrance Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Personal Expenses"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily, subject to weather conditions.",
+      "Moderate trekking is required to reach Tiu Kelep Waterfall.",
+      "Please wear comfortable walking shoes with good grip.",
+      "Bring swimwear, a towel, sunscreen, insect repellent, and a change of clothes if you plan to swim.",
+      "The itinerary may be adjusted depending on weather and trail conditions."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "Nature Lovers",
+      "Adventure Seekers",
+      "Hiking Enthusiasts",
+      "Photography Lovers",
+      "Couples & Families",
+      "Travelers Looking to Experience Mount Rinjani's Highlands"
+    ],
+    "ctaTitle": "Ready to Discover Northern Lombok?",
+    "ctaDesc": "Escape to the cool highlands of Senaru and Sembalun, where majestic waterfalls, breathtaking mountain landscapes, and unforgettable natural beauty await. Let Travoscape guide you through one of Lombok's most scenic adventures, creating memories that will last long after the journey ends."
+  },
+  "mandalikaHeritage": {
+    "title": "Mandalika Heritage Tour",
+    "overviewTitle": "Overview",
+    "overviewP1": "Go beyond the beaches and discover the traditions, craftsmanship, and timeless beauty that define Lombok with the Mandalika Heritage Tour. This journey takes you into the authentic heart of the island, where ancient customs and stunning coastal landscapes seamlessly blend together.",
+    "overviewP2": "From witnessing skilled artisans at Banyumulek and Sukarara to exploring the traditional Sasak architecture of Sade Village, this tour is rich in history and culture. Complete your day by soaking in the spectacular views of the Mandalika MotoGP Circuit, Kuta Mandalika Beach, and the breathtaking turquoise waters of Tanjung Aan and Bukit Seger.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Banyumulek Pottery Village",
+      "Sukarara Weaving Village",
+      "Sade Traditional Sasak Village",
+      "Mandalika MotoGP Circuit Viewpoint",
+      "Kuta Mandalika Beach",
+      "Tanjung Aan Beach",
+      "Bukit Seger Panoramic View",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "Mandalika Heritage Tour Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Begin your journey with a comfortable pickup from your hotel before heading toward Lombok's traditional artisan villages."
+      },
+      {
+        "title": "Visit Banyumulek Pottery Village",
+        "desc": "Discover Banyumulek Pottery Village, one of Lombok's most renowned pottery-making communities. Watch skilled local artisans shape clay by hand using techniques that have been preserved for generations, and browse a collection of beautifully handcrafted ceramics."
+      },
+      {
+        "title": "Explore Sukarara Weaving Village",
+        "desc": "Continue to Sukarara Weaving Village, where you'll witness the traditional weaving process behind Lombok's famous handwoven textiles. Learn about Sasak culture while admiring intricate patterns and vibrant local craftsmanship."
+      },
+      {
+        "title": "Discover Sade Traditional Sasak Village",
+        "desc": "Visit Sade Traditional Village, home to one of Lombok's oldest Sasak communities. Explore authentic traditional houses, learn about local customs, and gain insight into the island's unique cultural heritage."
+      },
+      {
+        "title": "Mandalika MotoGP Circuit Viewpoint",
+        "desc": "Stop at the Mandalika MotoGP Circuit Viewpoint, where you can enjoy panoramic views overlooking Indonesia's world-class international racing circuit and the surrounding coastline."
+      },
+      {
+        "title": "Kuta Mandalika Beach",
+        "desc": "Relax at Kuta Mandalika Beach, known for its soft white sand, crystal-clear water, and scenic tropical landscape. Take time to walk along the shoreline or simply unwind by the sea."
+      },
+      {
+        "title": "Lunch at a Local Restaurant",
+        "desc": "Enjoy lunch at a carefully selected local restaurant serving authentic Indonesian cuisine near the Mandalika area."
+      },
+      {
+        "title": "Tanjung Aan Beach",
+        "desc": "Continue to Tanjung Aan Beach, one of Lombok's most beautiful beaches, famous for its turquoise water and unique pepper-like sand."
+      },
+      {
+        "title": "Bukit Seger",
+        "desc": "End your adventure with a short walk up Bukit Seger, offering spectacular panoramic views of the Mandalika coastline and the Indian Ocean. It's the perfect place to capture unforgettable photographs before heading back."
+      },
+      {
+        "title": "Return to Hotel",
+        "desc": "Enjoy a comfortable drive back to your hotel after a day filled with culture, history, and breathtaking scenery."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Fuel",
+      "Parking Fees",
+      "Entrance Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Personal Expenses"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily, subject to availability.",
+      "Suitable for all ages, including families and senior travelers.",
+      "Comfortable walking shoes, sunscreen, sunglasses, and a hat are recommended.",
+      "Local artisan products are available for purchase directly from the villages (optional)."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "Cultural Explorers",
+      "Families",
+      "Couples",
+      "First-Time Visitors to Lombok",
+      "Photography Enthusiasts",
+      "Travelers Interested in Local Heritage & Traditions"
+    ],
+    "ctaTitle": "Ready to Experience the Soul of Lombok?",
+    "ctaDesc": "Go beyond the beaches and discover the traditions, craftsmanship, and timeless beauty that define Lombok. From pottery and handwoven textiles to traditional Sasak villages and the stunning Mandalika coastline, Mandalika Heritage Tour offers a meaningful journey into the island's rich cultural heritage. Let Travoscape take you beyond sightseeing and into the authentic heart of Lombok."
+  },
+  "westLombok": {
+    "title": "West Lombok Scenic Escape",
+    "overviewTitle": "Overview",
+    "overviewP1": "Experience the timeless beauty of Lombok's western coastline with West Lombok Scenic Escape. This relaxing full-day journey takes you along some of the island's most picturesque beaches, dramatic coastal viewpoints, and cultural landmarks, offering the perfect blend of nature, history, and breathtaking ocean scenery.",
+    "overviewP2": "From the panoramic cliffs of Malimbu Hill and the peaceful shores of Nipah Beach to the iconic Batu Bolong Temple overlooking the sea, this tour is designed for travelers who want to slow down and experience Lombok's stunning west coast at a comfortable pace.",
+    "highlightsTitle": "Trip Highlights",
+    "highlights": [
+      "Malimbu Hill",
+      "Nipah Beach",
+      "Pandanan Beach",
+      "Villa Hantu Viewpoint",
+      "Senggigi Beach",
+      "Batu Bolong Temple",
+      "Scenic Coastal Drive",
+      "Private Driver",
+      "English-speaking Driver & Tour Guide"
+    ],
+    "itineraryTitle": "West Lombok Scenic Escape Itinerary",
+    "itinerary": [
+      {
+        "title": "Hotel Pickup",
+        "desc": "Start your journey with a comfortable pickup from your hotel before heading toward Lombok's beautiful western coastline."
+      },
+      {
+        "title": "Malimbu Hill",
+        "desc": "Your first stop is Malimbu Hill, one of Lombok's most famous viewpoints. Enjoy breathtaking panoramic views overlooking the turquoise ocean and the Gili Islands in the distance."
+      },
+      {
+        "title": "Nipah Beach",
+        "desc": "Continue to the tranquil Nipah Beach, known for its calm waters, peaceful atmosphere, and beautiful stretches of white sand. Take a relaxing walk along the shoreline or simply enjoy the ocean breeze."
+      },
+      {
+        "title": "Pandanan Beach",
+        "desc": "Visit Pandanan Beach, a hidden coastal gem surrounded by crystal-clear waters and local fishing villages. It's a perfect place to unwind while enjoying Lombok's natural beauty."
+      },
+      {
+        "title": "Lunch at a Local Restaurant",
+        "desc": "Enjoy a delicious lunch at a carefully selected local restaurant featuring fresh seafood and authentic Indonesian cuisine."
+      },
+      {
+        "title": "Villa Hantu Viewpoint",
+        "desc": "Head to the famous Villa Hantu, an abandoned cliffside villa offering one of the most spectacular viewpoints along Lombok's west coast. Capture unforgettable panoramic photographs overlooking the Indian Ocean."
+      },
+      {
+        "title": "Senggigi Beach",
+        "desc": "Spend time exploring Senggigi Beach, Lombok's most well-known beach destination. Relax by the shore, browse nearby cafés and local shops, or simply soak in the lively coastal atmosphere."
+      },
+      {
+        "title": "Batu Bolong Temple",
+        "desc": "End your journey at Batu Bolong Temple, a beautiful seaside Hindu temple built on a rocky cliff overlooking the ocean. This peaceful landmark is one of Lombok's best locations for sunset views and cultural exploration."
+      },
+      {
+        "title": "Return to Hotel",
+        "desc": "After a relaxing day exploring Lombok's western coastline, enjoy a comfortable drive back to your hotel."
+      }
+    ],
+    "includedTitle": "What's Included",
+    "included": [
+      "Private Air-conditioned Vehicle",
+      "English-speaking Driver",
+      "English-speaking Tour Guide",
+      "Hotel Pickup & Drop-off",
+      "Fuel",
+      "Parking Fees",
+      "Entrance Fees",
+      "Mineral Water"
+    ],
+    "notIncludedTitle": "Not Included",
+    "notIncluded": [
+      "Lunch",
+      "Personal Expenses"
+    ],
+    "goodToKnowTitle": "Good to Know",
+    "goodToKnow": [
+      "Private tour exclusively for your group.",
+      "Available daily.",
+      "Suitable for all ages.",
+      "Comfortable walking shoes, sunglasses, sunscreen, and a hat are recommended.",
+      "This tour is ideal for travelers looking for a relaxing sightseeing experience rather than strenuous activities.",
+      "Batu Bolong Temple is an active place of worship; visitors are kindly asked to dress respectfully."
+    ],
+    "perfectForTitle": "Perfect For",
+    "perfectFor": [
+      "Couples & Honeymooners",
+      "Families",
+      "Photography Enthusiasts",
+      "Nature Lovers",
+      "First-Time Visitors to Lombok",
+      "Travelers Seeking a Relaxing Coastal Experience"
+    ],
+    "ctaTitle": "Ready to Explore Lombok's Beautiful West Coast?",
+    "ctaDesc": "Discover dramatic coastal cliffs, tranquil beaches, and iconic cultural landmarks on West Lombok Scenic Escape. From the breathtaking views of Malimbu Hill to the peaceful charm of Batu Bolong Temple, this journey offers the perfect introduction to the beauty and serenity of Lombok's western shoreline. Let Travoscape take you on a scenic adventure you'll never forget."
   }
 }

@@ -2,6 +2,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import Image from "next/image";
 import { getDictionary, Locale } from "@/dictionaries";
 import { cookies } from "next/headers";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export default async function Home() {
   const cookieStore = await cookies();
@@ -213,6 +214,9 @@ export default async function Home() {
           ))}
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FaqAccordion title={(dict as any).packages.faqTitle} faqs={(dict as any).packages.faqs} />
     </>
   );
 }

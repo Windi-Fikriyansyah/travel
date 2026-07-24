@@ -42,22 +42,6 @@ export default function Footer({ dict, lang }: { dict: Dictionary['footer'], lan
 
         {/* Right Column */}
         <div className="flex flex-col gap-6 max-w-md w-full lg:mt-0 mt-8">
-          <h3 className="font-headline-sm text-on-surface">{dict.companyName}</h3>
-          
-          <div className="flex flex-col gap-1">
-            <h4 className="font-title-md text-on-surface">Sumbawa</h4>
-            <p className="text-on-surface-variant font-body-md leading-relaxed">
-              {dict.sumbawaAddress}
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-1">
-            <h4 className="font-title-md text-on-surface">Lombok</h4>
-            <p className="text-on-surface-variant font-body-md leading-relaxed">
-              {dict.lombokAddress}
-            </p>
-          </div>
-
           <div className="flex gap-3 mt-4">
             {/* Social Icons */}
             {[

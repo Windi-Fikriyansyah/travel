@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Dictionary } from "@/dictionaries";
 
 export default function DestinationsClient({ dict, lang }: { dict: Dictionary['destinations'], lang: string }) {
@@ -68,10 +69,10 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
       {/* Bento-ish Grid for Packages */}
       <main className="px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto pb-section-gap">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter gap-y-16">
-          {/* Card 1: Amalfi Coast */}
+          {/* Card 1: Gili Islands Escape */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
-              <div className="relative overflow-hidden mb-6 image-matting">
+              <Link href="/destinations/gili-islands-escape" className="relative overflow-hidden mb-6 image-matting block">
                 <Image 
                   alt="Destination" 
                   width={600}
@@ -80,124 +81,146 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3Y-iVQCGGGlo52XiUBLM3beaZM19Wr7JpBVTwFpZi6BDcS-DPpDiGzj_4_pYrECJ3SUrtzEVSTs8qychwoBsk2Xw5xY-Hzdb40c1-1UWFiFntA0JTuSGops-yD4tTIgDGCq4Ly6C5kI8jKz35M1lb4iB-egyHhzDhPC6tfmPHG0mSr58TsrbgBwFiKRwt2djmQ7A7UYMN0wO9JxPDJVe6pdjNxQJi0EyyPynxsEh-qD8cRcs29FQ_3g" 
                 />
                 <div className="absolute top-4 left-4 bg-surface-container-lowest/90 px-3 py-1 font-label-md text-primary tracking-widest uppercase text-xs">{dict.featured}</div>
-              </div>
-              <h2 className="font-headline-sm text-headline-sm mb-2">Amalfi Coast Reverie</h2>
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">Gili Islands Escape</h2>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
-                {dict.amalfiDesc}
+                {(dict as any).giliEscapeDesc}
               </p>
               <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
-                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Amalfi Coast Reverie")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Gili Islands Escape")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
               </div>
             </div>
           </div>
 
-          {/* Card 2: Bali */}
+          {/* Card 2: Secret Gili Expedition */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
-              <div className="relative overflow-hidden mb-6 image-matting">
+              <Link href="/destinations/secret-gili-expedition" className="relative overflow-hidden mb-6 image-matting block">
                 <Image 
-                  alt="Bali" 
+                  alt="Secret Gili Expedition" 
                   width={600}
                   height={300}
                   className="w-full h-[300px] object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhpyoIssem3RuRP5cKSGxZDGStHYL7xulU9-Y86BukGv5NFxdOJFBal16B-NhEWdZRy_CRSYWG8zYNYB2Z2RO31Ad5Mjte36eV4YvzbEXqSdrlFvXvmec3fxnuQ_oSZ33kKs3ylnOzE2mWLEdOJ7LvbZpVtS4zja9GiungVMJ-AX7YOZJFu8wKMxEcKsUflUJ7j10s1ZSu0TFQ3hyi1HioT_3Fo2KHijxKxF9USUkOl0uFxpek1L0WhQ" 
                 />
-              </div>
-              <h2 className="font-headline-sm text-headline-sm mb-2">Bali Serenity</h2>
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">Secret Gili Expedition</h2>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
-                {dict.baliDesc}
+                {(dict as any).secretGiliDesc}
               </p>
               <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
-                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Bali Serenity")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Secret Gili Expedition")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
               </div>
             </div>
           </div>
 
-          {/* Card 3: Iceland */}
+          {/* Card 3: Pink Beach */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
-              <div className="relative overflow-hidden mb-6 image-matting">
+              <Link href="/destinations/pink-beach-sandbar-adventure" className="relative overflow-hidden mb-6 image-matting block">
                 <Image 
-                  alt="Iceland" 
+                  alt="Pink Beach & Sandbar Adventure" 
                   width={600}
                   height={300}
                   className="w-full h-[300px] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfXoSPDcWWvHE1Amo0AxDkFVAwUMavDzimQtidqyzAo6JLbZ9Ch-6nhHkH4RgTUO3Dlyar6XU4WiROwHhD-eHrBrG5wL6THsOax614PyJ8zS3q41MDR4cqa5rBNX8kXWhyvk1t3JHD8hEl8DAMeMcTDmcba5DjP0hqoiM7TWGz5rfiNz_8PS3fJC2YYYQAUesKguBhjqazYirwmp_AhDAB3uge2lM_vZ53GRrRm4UVoWcSEHTsFxs6AQ" 
                 />
                 <div className="absolute top-4 left-4 bg-surface-container-lowest/90 px-3 py-1 font-label-md text-primary tracking-widest uppercase text-xs">{dict.limited}</div>
-              </div>
-              <h2 className="font-headline-sm text-headline-sm mb-2">Northern Lights Odyssey</h2>
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">Pink Beach & Sandbar Adventure</h2>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
-                {dict.icelandDesc}
+                {(dict as any).pinkBeachDesc}
               </p>
               <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
-                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Northern Lights Odyssey")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Pink Beach & Sandbar Adventure")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
               </div>
             </div>
           </div>
 
-          {/* Card 4: Tuscany */}
+          {/* Card 4: Waterfall Escape */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
-              <div className="relative overflow-hidden mb-6 image-matting">
+              <Link href="/destinations/hidden-waterfall-escape" className="relative overflow-hidden mb-6 image-matting block">
                 <Image 
-                  alt="Tuscany" 
+                  alt="Hidden Waterfall Escape" 
                   width={600}
                   height={300}
                   className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT1TdOaMIEcRJaMk8CSKX_4nj2SfGm6wH6jVYUCsNrNZ5JKYqwvCqaXd8jhna3iDTom6pNh5XkWcmdMYlpifsfOMWXuFK3aypglKt4PXYfRefs7O30zN0OtiX0ciAjkEX5Wuy6nn-dzvxQkdZkToGTqDVFURanYCQP8NLBORXCUzVBHxxWkjhVC-HlKdqBxBfO5zrGgpRUlE73huNJdFy8oI0D8c9Ye2tLiDWYWI41TM-txzEQoI11Qg" 
                 />
-              </div>
-              <h2 className="font-headline-sm text-headline-sm mb-2">Tuscan Escape</h2>
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">Hidden Waterfall Escape</h2>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
-                {dict.tuscanyDesc}
+                {(dict as any).waterfallDesc}
               </p>
               <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
-                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Tuscan Escape")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Hidden Waterfall Escape")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
               </div>
             </div>
           </div>
 
-          {/* Card 5: Santorini */}
+          {/* Card 5: Explore Senaru & Sembalun */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
-              <div className="relative overflow-hidden mb-6 image-matting">
+              <Link href="/destinations/explore-senaru-sembalun" className="relative overflow-hidden mb-6 image-matting block">
                 <Image 
-                  alt="Santorini" 
+                  alt="Explore Senaru & Sembalun" 
                   width={600}
                   height={300}
                   className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbVaJS6Lv9k0roM40wGDOui9XoIjYFqRy1Z_mAth6Zwy6TUiqi5op0pjl78EN-GSxVt2hCOxyRb8vkKhZ--dtwjM5kguDwDG9o3eP_xaCNg170A9xH1jo2Q0hOnbMo9j8xUXhut4yO1CYEToT06ez9LxnWQi75qMX7SbIqwaS-7g_hjAxAs_Ixz-OULsi5R_3SLBBylUaKuttWthofKWLvIGv5CjBEzV0_y5oAWppnI7_atNuSbFPe2g" 
                 />
-              </div>
-              <h2 className="font-headline-sm text-headline-sm mb-2">Santorini Solitude</h2>
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">Explore Senaru & Sembalun</h2>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
-                {dict.santoriniDesc}
+                {(dict as any).senaruSembalunDesc}
               </p>
               <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
-                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Santorini Solitude")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Explore Senaru & Sembalun")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
               </div>
             </div>
           </div>
 
-          {/* Card 6: Kyoto */}
+          {/* Card 6: Mandalika Heritage Tour */}
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
-              <div className="relative overflow-hidden mb-6 image-matting">
+              <Link href="/destinations/mandalika-heritage-tour" className="relative overflow-hidden mb-6 image-matting block">
                 <Image 
-                  alt="Kyoto" 
+                  alt="Mandalika Heritage Tour" 
                   width={600}
                   height={300}
                   className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6hkU06CpOaIDu7GpKNBgP8bgd2q6LIP0WC1UzfNlxTXxyfN-ogSn4FoUiIgj632s4C3-pwKuqn4yXmgyWHMV3UeX4q2U3RusMYyNcFNH-sq4Yf3Mr_iSIEeoy66FqTMjyKAlSjjh4j5h6EcDOD6TLGs0nKV4rWTsWV10pLWe2Bu-n2z7l7TWvUAFctHwsOsqL9PbsIweU_pNAjl-DFbzpOzgpHxQkvKLUkU8qmACIQESRLRrMn_UXzw" 
                 />
-              </div>
-              <h2 className="font-headline-sm text-headline-sm mb-2">Kyoto Tradition</h2>
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">Mandalika Heritage Tour</h2>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
-                {dict.kyotoDesc}
+                {(dict as any).mandalikaDesc}
               </p>
               <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
-                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Kyoto Tradition")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("Mandalika Heritage Tour")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 7: West Lombok Scenic Escape */}
+          <div className="group flex flex-col">
+            <div className="hover-lift flex-1 flex flex-col">
+              <Link href="/destinations/west-lombok-scenic-escape" className="relative overflow-hidden mb-6 image-matting block">
+                <Image 
+                  alt="West Lombok Scenic Escape" 
+                  width={600}
+                  height={300}
+                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
+                  src="/images/west_lombok_escape.png" 
+                />
+              </Link>
+              <h2 className="font-headline-sm text-headline-sm mb-2">West Lombok Scenic Escape</h2>
+              <p className="font-body-sm text-body-sm text-on-surface-variant mb-6 flex-1">
+                {(dict as any).westLombokDesc}
+              </p>
+              <div className="flex justify-end items-center pt-4 border-t border-outline-variant/30">
+                <a target="_blank" rel="noopener noreferrer" href={getWaLink("West Lombok Scenic Escape")} className="font-label-lg text-label-lg text-secondary border-b border-secondary/30 hover:border-secondary transition-all">{dict.bookNow}</a>
               </div>
             </div>
           </div>

@@ -42,12 +42,18 @@ export default async function About() {
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
               {aboutDict.storyP1}
             </p>
-            <p className="font-body-md text-body-md text-on-surface-variant mb-8 opacity-80">
+            <p className="font-body-md text-body-md text-on-surface-variant mb-6 opacity-80">
               {aboutDict.storyP2}
             </p>
-            <div className="border-l-2 border-secondary-container pl-6 py-2 italic font-headline-sm text-secondary">
-              {aboutDict.storyQuote}
+            <div className="border-l-2 border-secondary-container pl-6 py-2 italic font-headline-sm text-secondary mb-6">
+              {aboutDict.storyP3}
             </div>
+            <p className="font-body-md text-body-md text-on-surface-variant mb-6 opacity-80">
+              {aboutDict.storyP4}
+            </p>
+            <p className="font-body-md text-body-md text-on-surface-variant mb-8 opacity-80">
+              {aboutDict.storyP5}
+            </p>
           </div>
         </div>
       </section>

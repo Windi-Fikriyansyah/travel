@@ -10,7 +10,7 @@
   },
   "footer": {
     "logo": "Travoscape",
-    "description": "The Langkah Travel lahir pada tahun 2012 karena sebuah pemikiran yang dilandasi dengan keahlian dan keinginan untuk memberikan pelayanan terbaik bagi customer The Langkah Travel",
+    "description": "Lahir dari kecintaan pada perjalanan dan apresiasi mendalam terhadap Lombok, Travoscape diciptakan untuk membuat penjelajahan pulau ini lebih mudah, lebih autentik, dan disesuaikan dengan perjalanan unik setiap pelancong.",
     "reviews": "ulasan",
     "companyName": "PT Langkah Liburan Bersama",
     "sumbawaAddress": "Jalan Hijrah Gang Ganista 1 Nomor 2 Kelurahan Brang Bara, Sumbawa Besar, NTB - 84314",
@@ -46,18 +46,20 @@
     "legacyLabel": "Warisan Kami",
     "heroLine1": "Merangkai cerita perjalanan",
     "heroLine2": "paling intim di dunia.",
-    "storyTitle": "Kisah Palmer Travel",
-    "storyP1": "Didirikan pada tahun 1994, Palmer Travel bermula dari satu keyakinan: bahwa perjalanan bukanlah sekadar komoditas, melainkan kumpulan bab yang dikurasi dengan cermat. Apa yang awalnya merupakan konsultan butik kecil di kota pesisir, kini telah berkembang menjadi otoritas global dalam liburan mewah.",
-    "storyP2": "Kami tidak sekadar memesan penerbangan atau memesan suite. Kami mengkurasi lingkungan. Pendiri kami, para penjelajah berpengalaman, menyadari bahwa kenangan terbaik tidak ditemukan di brosur, tetapi di momen tenang di antara landmark—aroma kebun lemon di Sorrento, keheningan malam gurun di Namibia.",
-    "storyQuote": "\"Kami bukan agen perjalanan. Kami adalah pencerita yang tintanya adalah cakrawala.\"",
-    "valuesTitle": "Nilai-Nilai Kami",
+    "storyTitle": "Kisah Travoscape",
+    "storyP1": "Travoscape bermula dari ide sederhana yang dibagikan oleh sekelompok pelancong muda yang selalu merasa terpanggil untuk kembali ke Lombok. Setiap kunjungan mengungkapkan sesuatu yang baru—pantai tersembunyi, desa yang tenang, pemandangan menakjubkan, dan hubungan tulus dengan penduduk setempat.",
+    "storyP2": "Semakin banyak kami menjelajah, semakin kami menyadari bahwa banyak pengunjung menghabiskan terlalu banyak waktu untuk memikirkan transportasi, mencari pemandu lokal yang terpercaya, atau merencanakan ke mana harus pergi selanjutnya. Kami percaya bahwa menjelajahi Lombok seharusnya terasa menyenangkan, bukan melelahkan.",
+    "storyP3": "Keyakinan itulah yang menjadi Travoscape.",
+    "storyP4": "Daripada menawarkan tur yang sama untuk semua orang, kami fokus untuk menciptakan pengalaman perjalanan yang mulus dan disesuaikan dengan setiap pelancong. Baik itu perjalanan darat pribadi, petualangan mengunjungi berbagai pulau, atau rencana perjalanan yang sepenuhnya disesuaikan dengan Anda, tujuan kami sederhana: membuat penjelajahan Lombok menjadi mudah, autentik, dan tak terlupakan.",
+    "storyP5": "Saat ini, Travoscape bekerja sama dengan mitra lokal tepercaya untuk membantu pengunjung menikmati pulau ini di luar rute wisata pada umumnya—menghubungkan setiap perjalanan dengan jantung pulau Lombok.",
+    "valuesTitle": "Nilai Inti",
     "val1Title": "Kemewahan Sadar Lingkungan",
     "val1Desc": "Kami percaya pada perjalanan yang menghormati jiwa dari suatu destinasi. Misi keberlanjutan kami memastikan bahwa keindahan yang kami bagikan hari ini tetap bertahan bagi penjelajah masa depan.",
     "val2Title": "Layanan Tak Kasat Mata",
     "val2Desc": "Perjalanan yang luar biasa terasa tanpa hambatan. Kami bekerja di balik layar untuk mengatur setiap detail, sehingga Anda dapat sepenuhnya hadir dalam perjalanan Anda.",
     "val3Title": "Koneksi Otentik",
     "val3Desc": "Kami memprioritaskan warisan lokal di atas kemewahan generik. Koneksi kami memberikan akses ke tempat tersembunyi dan meja privat di seluruh dunia.",
-    "whyTitle": "Mengapa Palmer Travel?",
+    "whyTitle": "Mengapa Memilih Kami?",
     "why1Title": "Kurasi Khusus",
     "why1Desc": "Tidak ada dua rencana perjalanan yang identik. Setiap perjalanan dijahit dengan tangan sesuai dengan selera, ritme, dan impian spesifik Anda.",
     "why2Title": "Layanan Global 24/7",
@@ -81,12 +83,13 @@
     "wellness": "Kebugaran",
     "featured": "Unggulan",
     "limited": "Terbatas",
-    "amalfiDesc": "Perjalanan imersif tujuh hari melintasi teluk tersembunyi, kebun lemon pribadi, dan vila tebing bersejarah.",
-    "baliDesc": "Temukan kedamaian Anda dengan retret kebugaran kurasi di jantung terasering zamrud Ubud.",
-    "icelandDesc": "Melintasi pemandangan surealis Islandia di bawah tarian cahaya Aurora.",
-    "tuscanyDesc": "Eksplorasi kuliner di wilayah Chianti, menampilkan sesi mencicipi pribadi dan kelas ahli.",
-    "santoriniDesc": "Kemewahan yang tenang di Cyclades, jauh dari keramaian. Kapal pesiar pribadi dan makan malam matahari terbenam.",
-    "kyotoDesc": "Benamkan diri Anda dalam ritual kuno Jepang, mulai dari upacara minum teh hingga menginap di kuil.",
+    "giliEscapeDesc": "Nikmati keindahan pulau-pulau paling ikonik di Lombok dalam satu hari yang tak terlupakan.",
+    "secretGiliDesc": "Tinggalkan keramaian dan temukan rahasia pulau terbaik di Lombok dengan Ekspedisi Gili Rahasia.",
+    "pinkBeachDesc": "Temukan keindahan garis pantai tenggara Lombok yang belum tersentuh dengan Petualangan Pantai Pink & Sandbar.",
+    "waterfallDesc": "Kembali terhubung dengan alam melalui perjalanan menyegarkan menyusuri hutan hujan tropis Lombok dan air terjun tersembunyi.",
+    "senaruSembalunDesc": "Lakukan perjalanan ke dataran tinggi Lombok Utara yang menakjubkan dengan Eksplorasi Senaru & Sembalun.",
+    "mandalikaDesc": "Melampaui sekadar pantai dan temukan tradisi, keahlian pengrajin, serta keindahan abadi yang mendefinisikan Lombok bersama Tur Warisan Mandalika.",
+    "westLombokDesc": "Nikmati keindahan abadi garis pantai barat Lombok dengan Pelarian Indah Lombok Barat.",
     "bookNow": "Pesan Sekarang",
     "ctaTitle1": "Siap untuk",
     "ctaTitle2": "bab selanjutnya?",
@@ -96,10 +99,10 @@
   },
   "contact": {
     "getInTouch": "Hubungi Kami",
-    "heroTitle1": "Kami hadir untuk",
-    "heroTitle2": "merancang",
-    "heroTitle3": "kisah Anda.",
-    "heroSubtitle": "Baik Anda memimpikan pelarian pesisir yang terpencil atau petualangan kota berenergi tinggi, kurator kami siap mewujudkan visi Anda.",
+    "heroTitle1": "Mari Rencanakan",
+    "heroTitle2": "Sesuatu yang",
+    "heroTitle3": "Tak Terlupakan.",
+    "heroSubtitle": "Dari pantai tersembunyi dan petualangan pulau hingga pengalaman budaya dan liburan di pegunungan, tim lokal kami siap membantu Anda menemukan yang terbaik dari Lombok—dengan gaya Anda.",
     "formTitle": "Kirim Pesan",
     "labelName": "NAMA LENGKAP",
     "labelEmail": "ALAMAT EMAIL",
@@ -109,6 +112,7 @@
     "placeholderEmail": "halo@contoh.com",
     "placeholderMessage": "Saya merencanakan liburan pantai selama 2 minggu ke...",
     "opt1": "Desain Rencana Perjalanan Khusus",
+
     "opt2": "Retret Mewah",
     "opt3": "Perjalanan Perusahaan",
     "opt4": "Pariwisata Berkelanjutan",
@@ -126,13 +130,660 @@
     "openMap": "Buka di Google Maps"
   },
   "packages": {
-    "title": "Pilihan Paket Wisata Di Lombok",
-    "description": "Paket Tour Lombok bersama The Langkah Travel dengan destinasi terlengkap dan pilihan paket wisata yang beragam. Mulai dari Paket liburan Lombok 3 hari 2 malam hingga 5 hari 4 malam.",
-    "pkg1": "Paket Wisata Gili Trawangan",
-    "pkg2": "Paket Wisata Group Lombok",
-    "pkg3": "Paket Honeymoon Lombok",
-    "pkg4": "Tour Lombok 1 Hari",
-    "pkg5": "Paket Tour Lombok",
-    "pkg6": "Sewa Mobil & Jasa Transportasi Lombok"
+    "title": "Pengalaman Travoscape",
+    "description": "Baik Anda mencari petualangan menjelajahi pulau, pendalaman budaya, atau sekadar hari yang santai di pantai, paket kami dirancang agar Anda dapat menikmati yang terbaik dari Lombok. Pilih dari perjalanan kami yang dikurasi dengan cermat.",
+    "pkg1": "Pelarian Pulau",
+    "pkg2": "Pendalaman Budaya",
+    "pkg3": "Trekking Alam",
+    "pkg4": "Liburan Pantai",
+    "pkg5": "Tur Fotografi",
+    "pkg6": "Rencana Perjalanan Khusus",
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "faqs": [
+      {
+        "q": "Apa saja yang termasuk dalam paket tur Anda?",
+        "a": "Paket tur kami biasanya mencakup transportasi pribadi dengan sopir berbahasa Inggris, penjemputan dan pengantaran hotel, bahan bakar, dan biaya parkir. Beberapa paket juga mencakup pemandu wisata khusus, sewa perahu, dan biaya masuk seperti yang ditentukan dalam rencana perjalanan."
+      },
+      {
+        "q": "Apakah tur Anda pribadi atau gabungan?",
+        "a": "Semua tur kami 100% pribadi. Kami tidak menggabungkan Anda dengan orang asing. Pengalaman Anda eksklusif untuk Anda dan teman perjalanan Anda."
+      },
+      {
+        "q": "Bisakah saya menyesuaikan rencana perjalanan?",
+        "a": "Tentu saja! Kami mengkhususkan diri dalam perjalanan yang dipersonalisasi. Anda dapat mengubah salah satu paket kami yang ada atau kami dapat membuat rencana perjalanan yang benar-benar baru berdasarkan minat Anda."
+      },
+      {
+        "q": "Apakah Anda menyediakan layanan antar jemput bandara?",
+        "a": "Ya, kami menawarkan layanan antar jemput bandara yang dapat diandalkan dari dan ke Bandara Internasional Lombok (LOP) ke tujuan mana pun di Lombok."
+      },
+      {
+        "q": "Bagaimana cara saya memesan tur?",
+        "a": "Anda dapat memesan langsung dengan mengklik tombol 'Pesan Sekarang' di salah satu halaman tur kami, yang akan mengarahkan Anda ke WhatsApp kami. Kami akan mengonfirmasi detail Anda dan mengatur semuanya untuk Anda."
+      }
+    ]
+  },
+  "giliEscape": {
+    "title": "Pelarian Kepulauan Gili",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Nikmati keindahan pulau-pulau paling ikonik di Lombok dalam satu hari yang tak terlupakan. Gili Islands Escape membawa Anda melintasi perairan sebening kristal di Gili Trawangan, Gili Air, dan Gili Meno, di mana Anda akan menemukan terumbu karang yang semarak, pantai berpasir putih, dan suasana pulau santai yang membuat Gili terkenal di seluruh dunia.",
+    "overviewP2": "Baik Anda snorkeling bersama biota laut tropis, bersepeda mengelilingi pulau, atau sekadar bersantai di tepi laut biru kehijauan, pengalaman island-hopping pribadi ini dirancang untuk menawarkan keseimbangan sempurna antara petualangan dan relaksasi. Dengan sopir pribadi, perahu island-hopping, dan keahlian lokal tepercaya, yang perlu Anda lakukan hanyalah menikmati perjalanan.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Gili Trawangan",
+      "Gili Air",
+      "Gili Meno",
+      "Perahu Pribadi Island Hopping",
+      "Snorkeling di Terumbu Karang",
+      "Melihat Penyu (Tergantung Cuaca)",
+      "Bersepeda (Opsional)",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Pelarian Kepulauan Gili",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Mulai perjalanan Anda dengan penjemputan yang nyaman dari hotel dan nikmati pemandangan indah menuju Pelabuhan Bangsal, gerbang menuju Kepulauan Gili yang terkenal di Lombok."
+      },
+      {
+        "title": "Perahu Pribadi ke Kepulauan Gili",
+        "desc": "Naik perahu pribadi Anda dan berlayar melintasi perairan biru, dikelilingi oleh pemandangan pesisir yang menakjubkan dan angin laut yang segar."
+      },
+      {
+        "title": "Jelajahi Gili Air",
+        "desc": "Pemberhentian pertama Anda adalah Gili Air, yang dikenal dengan perairannya yang jernih, terumbu karang yang berwarna-warni, dan suasana pulau yang santai. Habiskan waktu untuk snorkeling, berenang, atau sekadar menikmati pantai berpasir putih yang indah."
+      },
+      {
+        "title": "Temukan Gili Meno",
+        "desc": "Lanjutkan ke Gili Meno, yang paling tenang dan damai dari ketiga pulau. Jelajahi taman karang yang hidup dan, jika cuaca serta kondisi laut memungkinkan, jumpai penyu di habitat aslinya."
+      },
+      {
+        "title": "Makan Siang di Tepi Pantai",
+        "desc": "Nikmati makan siang di restoran lokal tepi pantai sambil menikmati pemandangan laut yang panorama dan suasana santai Kepulauan Gili."
+      },
+      {
+        "title": "Nikmati Gili Trawangan",
+        "desc": "Akhiri petualangan Anda di Gili Trawangan, pulau terbesar dan paling semarak di Kepulauan Gili. Bersantai di pantai, jelajahi kafe dan butik yang menawan, atau sewa sepeda untuk menjelajahi pulau sesuai keinginan Anda."
+      },
+      {
+        "title": "Kembali ke Lombok",
+        "desc": "Naik perahu pribadi Anda kembali ke Pelabuhan Bangsal sebelum kembali dengan nyaman ke hotel Anda, membawa pulang kenangan tak terlupakan dari surga pulau tropis Lombok."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Perahu Pribadi Island Hopping",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Peralatan Snorkeling",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Pengeluaran Pribadi",
+      "Sewa Sepeda (Opsional)"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari, tergantung ketersediaan dan kondisi cuaca.",
+      "Cocok untuk pelancong solo, pasangan, keluarga, dan grup kecil.",
+      "Melihat penyu tergantung pada cuaca, kondisi laut, dan aktivitas biota laut.",
+      "Harap bawa pakaian renang, tabir surya, kacamata hitam, handuk, dan pakaian ganti.",
+      "Jadwal perjalanan dan lokasi snorkeling dapat disesuaikan tergantung pada cuaca dan kondisi laut untuk memastikan pengalaman yang paling aman dan terbaik."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Pengunjung Pertama Kali ke Lombok",
+      "Pasangan & Bulan Madu",
+      "Keluarga",
+      "Penggemar Snorkeling",
+      "Pencinta Island Hopping",
+      "Penjelajah Alam & Laut"
+    ],
+    "ctaTitle": "Siap Menjelajahi Kepulauan Gili?",
+    "ctaDesc": "Temukan perairan biru, biota laut yang hidup, dan pesona santai Gili Air, Gili Meno, dan Gili Trawangan dalam satu petualangan island-hopping yang mulus. Biarkan Travoscape mengurus setiap detail sementara Anda bersantai, menjelajah, dan menciptakan kenangan tak terlupakan di pulau-pulau tropis paling ikonik di Lombok."
+  },
+  "secretGili": {
+    "title": "Ekspedisi Gili Rahasia",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Tinggalkan keramaian dan temukan rahasia pulau terbaik di Lombok dengan Secret Gili Expedition. Petualangan sehari penuh ini membawa Anda ke pulau-pulau yang tenang di Gili Nanggu, Gili Sudak, dan Gili Kedis, di mana perairan sebening kristal, terumbu karang yang hidup, dan pantai berpasir putih yang belum tersentuh menciptakan liburan tropis yang sempurna.",
+    "overviewP2": "Jauh dari pusat wisata yang sibuk, pulau-pulau tersembunyi ini menawarkan suasana damai yang ideal untuk snorkeling, berenang, dan sekadar menikmati alam sesuai kecepatan Anda sendiri. Baik Anda mencari relaksasi atau petualangan bawah laut, Ekspedisi Gili Rahasia memberikan pengalaman pulau yang otentik dengan kenyamanan transportasi pribadi dan perahu island-hopping khusus.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Gili Nanggu",
+      "Gili Sudak",
+      "Gili Kedis",
+      "Perahu Pribadi Island Hopping",
+      "Snorkeling di Terumbu Karang Jernih",
+      "Pantai Pasir Putih",
+      "Pulau Tropis yang Damai",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Ekspedisi Gili Rahasia",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Mulai petualangan Anda dengan penjemputan yang nyaman dari hotel sebelum menuju Pelabuhan Tawun, titik awal perjalanan island-hopping Anda."
+      },
+      {
+        "title": "Perahu Pribadi ke Gili Rahasia",
+        "desc": "Naik perahu pribadi Anda dan berlayar melewati perairan tenang Lombok Barat Daya, dikelilingi oleh pemandangan pesisir yang spektakuler."
+      },
+      {
+        "title": "Jelajahi Gili Nanggu",
+        "desc": "Destinasi pertama Anda adalah Gili Nanggu, sebuah pulau terpencil yang terkenal dengan perairannya yang biru kehijauan, terumbu karang yang berwarna-warni, dan kondisi snorkeling yang sangat baik. Habiskan waktu untuk berenang, snorkeling, atau sekadar bersantai di pantai yang asri."
+      },
+      {
+        "title": "Temukan Gili Sudak",
+        "desc": "Lanjutkan ke Gili Sudak, sebuah pulau menawan yang dikenal dengan suasananya yang damai dan restoran tepi pantainya. Nikmati pemandangan pesisir yang indah sambil menikmati gaya hidup pulau yang santai."
+      },
+      {
+        "title": "Makan Siang di Tepi Pantai",
+        "desc": "Nikmati makan siang lezat di restoran lokal tepi pantai, di mana makanan laut segar dan masakan asli Indonesia disajikan dengan pemandangan laut yang menakjubkan."
+      },
+      {
+        "title": "Bersantai di Gili Kedis",
+        "desc": "Selesaikan perjalanan Anda di Gili Kedis, sebuah pulau tropis mungil yang sering disebut sebagai salah satu permata tersembunyi di Lombok. Kelilingi seluruh pulau hanya dalam beberapa menit, bersantai di bawah pohon palem, atau ambil foto tak terlupakan yang dikelilingi oleh perairan sebening kristal."
+      },
+      {
+        "title": "Kembali ke Lombok",
+        "desc": "Naik perahu pribadi Anda kembali ke Pelabuhan Tawun sebelum kembali dengan nyaman ke hotel Anda, mengakhiri hari yang penuh dengan penemuan pulau yang tak terlupakan."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Perahu Pribadi Island Hopping",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Peralatan Snorkeling",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Pengeluaran Pribadi"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari, tergantung kondisi cuaca dan laut.",
+      "Cocok untuk pasangan, keluarga, dan rombongan kecil.",
+      "Harap bawa pakaian renang, tabir surya, kacamata hitam, handuk, dan pakaian ganti.",
+      "Jadwal perjalanan dapat disesuaikan tergantung pada cuaca dan kondisi laut untuk memastikan pengalaman yang paling aman dan menyenangkan."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Wisatawan yang mencari destinasi tersembunyi",
+      "Pasangan & Bulan Madu",
+      "Keluarga",
+      "Penggemar Snorkeling",
+      "Pencinta Alam",
+      "Wisatawan yang mencari liburan pulau yang damai"
+    ],
+    "ctaTitle": "Siap Menjelajahi Kepulauan Tersembunyi Lombok?",
+    "ctaDesc": "Tinggalkan keramaian dan jelajahi keindahan murni Gili Nanggu, Gili Sudak, dan Gili Kedis. Dari perairan jernih dan terumbu karang hidup hingga pantai damai dan pesona pulau otentik, Secret Gili Expedition menawarkan liburan tropis yang tidak akan pernah Anda lupakan. Biarkan Travoscape mengurus setiap detail saat Anda merasakan salah satu rahasia terbaik Lombok."
+  },
+  "pinkBeach": {
+    "title": "Petualangan Pantai Pink & Sandbar",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Temukan keindahan garis pantai tenggara Lombok yang belum tersentuh dengan Pink Beach & Sandbar Adventure. Pengalaman island-hopping sehari penuh ini membawa Anda ke Pantai Pink yang terkenal di dunia, gundukan pasir Gili Pasir yang menakjubkan, dan surga bawah laut Gili Petelu yang hidup.",
+    "overviewP2": "Habiskan hari Anda menjelajahi beberapa destinasi pesisir paling indah di Lombok, di mana pantai berwarna merah muda, perairan jernih, terumbu karang warna-warni, dan biota laut yang berlimpah menciptakan petualangan tropis yang tak terlupakan. Baik Anda snorkeling, bersantai di pantai terpencil, atau menangkap pemandangan laut yang menakjubkan, perjalanan ini memamerkan salah satu keajaiban alam Lombok yang paling luar biasa.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Pantai Pink 1",
+      "Pantai Pink 2",
+      "Pantai Pink 3",
+      "Gili Pasir (Sandbar)",
+      "Gili Petelu",
+      "Perahu Pribadi Island Hopping",
+      "Snorkeling di Terumbu Karang",
+      "Perairan Sebening Kristal",
+      "Pilihan Makan Siang Lobster Bakar Segar",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Petualangan Pantai Pink & Sandbar",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Petualangan Anda dimulai dengan penjemputan yang nyaman dari hotel sebelum menuju Pelabuhan Tanjung Luar, titik keberangkatan untuk pengalaman island-hopping Anda."
+      },
+      {
+        "title": "Perahu Pribadi ke Pantai Timur",
+        "desc": "Naik perahu pribadi Anda dan berlayar di sepanjang garis pantai timur Lombok yang spektakuler, dikelilingi oleh pemandangan laut yang menakjubkan dan pulau-pulau tropis yang tersembunyi."
+      },
+      {
+        "title": "Jelajahi Pantai Pink 1",
+        "desc": "Kunjungi Pantai Pink 1 yang ikonik, terkenal dengan pasir merah mudanya yang unik yang diciptakan oleh karang merah yang dihancurkan bercampur dengan pasir putih. Bersantai, berenang, dan abadikan pemandangan pesisir yang tak terlupakan."
+      },
+      {
+        "title": "Snorkeling di Gili Petelu",
+        "desc": "Lanjutkan ke Gili Petelu, salah satu destinasi snorkeling terbaik di Lombok. Temukan terumbu karang berwarna-warni, ikan tropis, dan perairan sebening kristal yang sempurna untuk eksplorasi bawah laut."
+      },
+      {
+        "title": "Makan Siang di Tepi Pantai",
+        "desc": "Nikmati makan siang di restoran lokal tepi pantai sambil menghadap ke laut biru kehijauan. Pilihan Tambahan: Tingkatkan hidangan Anda dengan Makan Siang Lobster Bakar Segar untuk pengalaman makanan laut asli Lombok."
+      },
+      {
+        "title": "Kunjungi Gili Pasir (Sandbar)",
+        "desc": "Alami keindahan unik Gili Pasir, gundukan pasir kecil yang muncul saat air surut. Berjalan melintasi pasir putih lembut yang dikelilingi oleh perairan dangkal biru kehijauan—kesempatan berfoto yang tak terlupakan."
+      },
+      {
+        "title": "Jelajahi Pantai Pink 2",
+        "desc": "Lanjutkan perjalanan Anda ke Pantai Pink 2, hamparan garis pantai yang lebih tenang yang menawarkan lingkungan damai, perairan asri, dan lanskap pesisir yang spektakuler."
+      },
+      {
+        "title": "Temukan Pantai Pink 3",
+        "desc": "Akhiri petualangan pulau Anda di Pantai Pink 3, surga tersembunyi yang sempurna untuk bersantai, berenang, dan menikmati keindahan alam Lombok yang belum tersentuh jauh dari keramaian."
+      },
+      {
+        "title": "Kembali ke Lombok",
+        "desc": "Naik perahu pribadi Anda kembali ke Pelabuhan Tanjung Luar sebelum kembali dengan nyaman ke hotel Anda, menyimpulkan hari yang tak terlupakan menjelajahi garis pantai timur Lombok."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Perahu Pribadi Island Hopping",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Peralatan Snorkeling",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Makan Siang Lobster Bakar Segar (Pilihan Tambahan)",
+      "Pengeluaran Pribadi"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari, tergantung kondisi cuaca dan laut.",
+      "Gili Pasir hanya terlihat saat air surut, dan rencana perjalanan dapat disesuaikan.",
+      "Harap bawa pakaian renang, tabir surya, kacamata hitam, handuk, dan pakaian ganti.",
+      "Lokasi snorkeling dapat bervariasi tergantung pada kondisi laut untuk memastikan pengalaman terbaik."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Pencinta Pantai",
+      "Pasangan & Bulan Madu",
+      "Keluarga",
+      "Penggemar Snorkeling",
+      "Pencinta Fotografi",
+      "Wisatawan yang Mencari Permata Pesisir Tersembunyi"
+    ],
+    "ctaTitle": "Siap Merasakan Surga Merah Muda Lombok?",
+    "ctaDesc": "Jelajahi keindahan menakjubkan Pantai Pink, Gili Petelu, dan Gili Pasir dalam petualangan island-hopping sehari penuh yang dipenuhi dengan perairan sebening kristal, kehidupan laut yang hidup, dan pemandangan pesisir yang tak terlupakan. Biarkan Travoscape mengurus setiap detail sambil Anda menemukan salah satu destinasi tersembunyi paling spektakuler di Lombok."
+  },
+  "waterfallEscape": {
+    "title": "Pelarian Air Terjun Tersembunyi",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Kembali terhubung dengan alam melalui perjalanan menyegarkan menyusuri hutan hujan tropis Lombok dan air terjun tersembunyi. Hidden Waterfall Escape membawa Anda jauh dari garis pantai untuk menemukan tiga keajaiban alam paling memukau di Lombok Tengah—Air Terjun Benang Stokel, Air Terjun Benang Kelambu, dan Air Terjun Sesere.",
+    "overviewP2": "Sepanjang jalan, rasakan warisan budaya yang kaya dengan kunjungan ke Desa Tenun Sukarara, di mana para perajin melanjutkan tradisi kain tenun tangan Sasak. Menggabungkan budaya autentik dengan pemandangan alam yang menakjubkan, pengalaman ini sempurna bagi para pelancong yang mencari ketenangan, petualangan, dan koneksi yang lebih dalam dengan Lombok.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Desa Tenun Sukarara",
+      "Air Terjun Benang Stokel",
+      "Air Terjun Benang Kelambu",
+      "Air Terjun Sesere",
+      "Jalur Trekking Hutan Tropis",
+      "Kolam Renang Alami",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Pelarian Air Terjun Tersembunyi",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Mulai petualangan Anda dengan penjemputan yang nyaman dari hotel sebelum menuju ke Lombok Tengah."
+      },
+      {
+        "title": "Kunjungan ke Desa Tenun Sukarara",
+        "desc": "Temukan warisan budaya Suku Sasak di Desa Tenun Sukarara. Pelajari tentang proses menenun tradisional, kagumi tekstil buatan tangan yang indah, dan rasakan salah satu tradisi budaya tertua di Lombok."
+      },
+      {
+        "title": "Jelajahi Air Terjun Benang Stokel",
+        "desc": "Lanjutkan perjalanan Anda dengan sedikit trekking hutan ke Air Terjun Benang Stokel, di mana aliran air mengalir dari tebing hijau yang rimbun, menciptakan tempat peristirahatan alam yang damai."
+      },
+      {
+        "title": "Temukan Air Terjun Benang Kelambu",
+        "desc": "Hanya berjalan kaki singkat dari sana, terdapat Air Terjun Benang Kelambu yang spektakuler, terkenal karena alirannya yang menyerupai tirai di tengah vegetasi tropis yang lebat. Nikmati udara segar dan abadikan foto-foto tak terlupakan."
+      },
+      {
+        "title": "Makan Siang di Restoran Lokal",
+        "desc": "Beristirahatlah sejenak dan nikmati masakan autentik Indonesia di restoran lokal terdekat yang dikelilingi oleh pedesaan Lombok yang indah."
+      },
+      {
+        "title": "Kunjungi Air Terjun Sesere",
+        "desc": "Lengkapi petualangan air terjun Anda di Air Terjun Sesere yang tersembunyi, sebuah pelarian alami terpencil yang menawarkan suasana damai jauh dari keramaian. Bersantai di dekat air sejernih kristal dan nikmati keindahan hutan hujan Lombok yang belum tersentuh."
+      },
+      {
+        "title": "Kembali ke Hotel",
+        "desc": "Setelah hari yang tak terlupakan di tengah alam dan budaya, nikmati perjalanan pulang yang nyaman ke hotel Anda."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Biaya Masuk",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Pengeluaran Pribadi"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari, tergantung kondisi cuaca.",
+      "Dibutuhkan berjalan kaki ringan dan trekking hutan singkat.",
+      "Harap kenakan sepatu atau sandal berjalan yang nyaman dengan cengkeraman yang baik.",
+      "Bawa pakaian renang, handuk, tabir surya, obat anti nyamuk, dan pakaian ganti jika Anda ingin berenang."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Pencinta Alam",
+      "Pencari Petualangan",
+      "Pasangan & Bulan Madu",
+      "Keluarga",
+      "Penggemar Fotografi",
+      "Wisatawan yang Mencari Permata Tersembunyi"
+    ],
+    "ctaTitle": "Siap Mengejar Air Terjun Tersembunyi Lombok?",
+    "ctaDesc": "Menyingkir ke jantung hutan hujan Lombok yang rimbun dan temukan keindahan Air Terjun Benang Stokel, Benang Kelambu, dan Sesere. Dari air terjun yang mengalir hingga jalur hutan dan budaya Sasak autentik, Hidden Waterfall Escape menawarkan perpaduan sempurna antara petualangan, relaksasi, dan keindahan alam yang tak terlupakan."
+  },
+  "senaruSembalun": {
+    "title": "Eksplorasi Senaru & Sembalun",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Lakukan perjalanan ke dataran tinggi Lombok Utara yang menakjubkan dengan Explore Senaru & Sembalun, di mana air terjun yang megah, pemandangan gunung panorama, dan pesona desa yang otentik berpadu dalam satu petualangan yang tak terlupakan.",
+    "overviewP2": "Dari segarnya aliran Air Terjun Sendang Gile dan Tiu Kelep hingga sudut pandang Bukit Selong dan Pusuk Sembalun yang spektakuler, pengalaman ini menawarkan pelarian yang sempurna bagi pecinta alam dan penggemar aktivitas luar ruangan. Temukan keindahan kaki Gunung Rinjani sambil menjelajahi beberapa destinasi paling indah dan damai di Lombok.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Air Terjun Sendang Gile",
+      "Air Terjun Tiu Kelep",
+      "Bukit Selong",
+      "Pusuk Sembalun",
+      "Pemandangan Gunung Rinjani yang Indah",
+      "Pengalaman Trekking Hutan",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Eksplorasi Senaru & Sembalun",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Mulai perjalanan Anda dengan penjemputan yang nyaman dari hotel sebelum menuju ke utara menuju dataran tinggi Senaru dan Sembalun yang indah."
+      },
+      {
+        "title": "Jelajahi Air Terjun Sendang Gile",
+        "desc": "Mulai petualangan Anda di Air Terjun Sendang Gile, salah satu air terjun paling ikonik di Lombok. Nikmati udara gunung yang menyegarkan dan kagumi air terjun mengesankan yang dikelilingi oleh hutan tropis yang rimbun."
+      },
+      {
+        "title": "Temukan Air Terjun Tiu Kelep",
+        "desc": "Lanjutkan dengan trekking hutan yang indah menuju Air Terjun Tiu Kelep, keajaiban alam tersembunyi yang terkenal dengan air terjunnya yang deras, kolam sebening kristal, dan suasana hutan hujan yang menakjubkan."
+      },
+      {
+        "title": "Makan Siang dengan Pemandangan Gunung",
+        "desc": "Nikmati makan siang santai di restoran lokal sambil menikmati suasana sejuk dan pemandangan menakjubkan dari Lombok Utara."
+      },
+      {
+        "title": "Kunjungi Bukit Selong",
+        "desc": "Menuju Bukit Selong, salah satu sudut pandang paling terkenal di Lombok. Abadikan pemandangan panorama lahan pertanian berwarna-warni, perbukitan hijau, dan Gunung Rinjani yang megah."
+      },
+      {
+        "title": "Jelajahi Pusuk Sembalun",
+        "desc": "Lengkapi perjalanan Anda di Pusuk Sembalun, sudut pandang damai yang menawarkan pemandangan indah Lembah Sembalun dan pegunungan sekitarnya. Ini adalah tempat yang tepat untuk bersantai dan menikmati keindahan dataran tinggi Lombok."
+      },
+      {
+        "title": "Kembali ke Hotel",
+        "desc": "Bersantai selama perjalanan pemandangan kembali ke hotel Anda setelah seharian menjelajahi air terjun dan pemandangan gunung Lombok."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Biaya Masuk",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Pengeluaran Pribadi"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari, tergantung kondisi cuaca.",
+      "Diperlukan trekking tingkat menengah untuk mencapai Air Terjun Tiu Kelep.",
+      "Harap kenakan sepatu berjalan yang nyaman dengan cengkeraman yang baik.",
+      "Bawa pakaian renang, handuk, tabir surya, obat anti nyamuk, dan pakaian ganti jika Anda berencana untuk berenang.",
+      "Jadwal perjalanan dapat disesuaikan tergantung pada kondisi cuaca dan jalur."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Pencinta Alam",
+      "Pencari Petualangan",
+      "Penggemar Hiking",
+      "Pencinta Fotografi",
+      "Pasangan & Keluarga",
+      "Wisatawan yang Ingin Merasakan Dataran Tinggi Gunung Rinjani"
+    ],
+    "ctaTitle": "Siap Menjelajahi Lombok Utara?",
+    "ctaDesc": "Menyingkir ke dataran tinggi yang sejuk di Senaru dan Sembalun, di mana air terjun yang megah, pemandangan pegunungan yang menakjubkan, dan keindahan alam yang tak terlupakan menanti. Biarkan Travoscape memandu Anda melalui salah satu petualangan paling indah di Lombok, menciptakan kenangan yang akan bertahan lama setelah perjalanan berakhir."
+  },
+  "mandalikaHeritage": {
+    "title": "Tur Warisan Mandalika",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Melampaui sekadar pantai dan temukan tradisi, keahlian pengrajin, serta keindahan abadi yang mendefinisikan Lombok bersama Tur Warisan Mandalika. Perjalanan ini membawa Anda ke jantung autentik pulau, tempat adat kuno dan lanskap pesisir yang memukau berpadu dengan sempurna.",
+    "overviewP2": "Dari menyaksikan pengrajin terampil di Banyumulek dan Sukarara hingga menjelajahi arsitektur tradisional Sasak di Desa Sade, tur ini kaya akan sejarah dan budaya. Lengkapi hari Anda dengan menikmati pemandangan spektakuler Sirkuit MotoGP Mandalika, Pantai Kuta Mandalika, serta perairan biru kehijauan yang menakjubkan di Tanjung Aan dan Bukit Seger.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Desa Gerabah Banyumulek",
+      "Desa Tenun Sukarara",
+      "Desa Tradisional Sasak Sade",
+      "Titik Pandang Sirkuit MotoGP Mandalika",
+      "Pantai Kuta Mandalika",
+      "Pantai Tanjung Aan",
+      "Pemandangan Panorama Bukit Seger",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Tur Warisan Mandalika",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Mulai perjalanan Anda dengan penjemputan yang nyaman dari hotel sebelum menuju desa-desa pengrajin tradisional Lombok."
+      },
+      {
+        "title": "Kunjungi Desa Gerabah Banyumulek",
+        "desc": "Temukan Desa Gerabah Banyumulek, salah satu komunitas pembuat tembikar paling terkenal di Lombok. Saksikan pengrajin lokal terampil membentuk tanah liat dengan tangan menggunakan teknik yang telah diwariskan turun-temurun, dan lihatlah koleksi keramik buatan tangan yang indah."
+      },
+      {
+        "title": "Jelajahi Desa Tenun Sukarara",
+        "desc": "Lanjutkan ke Desa Tenun Sukarara, di mana Anda akan menyaksikan proses menenun tradisional di balik tekstil tenun tangan terkenal Lombok. Pelajari tentang budaya Sasak sambil mengagumi pola rumit dan kerajinan lokal yang semarak."
+      },
+      {
+        "title": "Temukan Desa Tradisional Sasak Sade",
+        "desc": "Kunjungi Desa Tradisional Sade, rumah bagi salah satu komunitas Sasak tertua di Lombok. Jelajahi rumah-rumah tradisional autentik, pelajari adat setempat, dan dapatkan wawasan tentang warisan budaya unik pulau ini."
+      },
+      {
+        "title": "Titik Pandang Sirkuit MotoGP Mandalika",
+        "desc": "Berhenti di Titik Pandang Sirkuit MotoGP Mandalika, di mana Anda dapat menikmati pemandangan panorama menghadap sirkuit balap internasional kelas dunia Indonesia dan garis pantai sekitarnya."
+      },
+      {
+        "title": "Pantai Kuta Mandalika",
+        "desc": "Bersantai di Pantai Kuta Mandalika, yang dikenal dengan pasir putihnya yang lembut, air sebening kristal, dan lanskap tropis yang indah. Luangkan waktu untuk berjalan di sepanjang garis pantai atau sekadar bersantai di tepi laut."
+      },
+      {
+        "title": "Makan Siang di Restoran Lokal",
+        "desc": "Nikmati makan siang di restoran lokal pilihan yang menyajikan masakan asli Indonesia di dekat area Mandalika."
+      },
+      {
+        "title": "Pantai Tanjung Aan",
+        "desc": "Lanjutkan ke Pantai Tanjung Aan, salah satu pantai terindah di Lombok, terkenal dengan perairannya yang biru kehijauan dan pasirnya yang unik seperti merica."
+      },
+      {
+        "title": "Bukit Seger",
+        "desc": "Akhiri petualangan Anda dengan berjalan kaki singkat ke atas Bukit Seger, yang menawarkan pemandangan panorama garis pantai Mandalika dan Samudra Hindia yang spektakuler. Ini adalah tempat yang tepat untuk mengabadikan foto-foto tak terlupakan sebelum kembali."
+      },
+      {
+        "title": "Kembali ke Hotel",
+        "desc": "Nikmati perjalanan pulang yang nyaman ke hotel Anda setelah seharian penuh dengan budaya, sejarah, dan pemandangan menakjubkan."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Biaya Masuk",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Pengeluaran Pribadi"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari, tergantung ketersediaan.",
+      "Cocok untuk semua umur, termasuk keluarga dan wisatawan lansia.",
+      "Disarankan menggunakan sepatu berjalan yang nyaman, tabir surya, kacamata hitam, dan topi.",
+      "Produk pengrajin lokal tersedia untuk dibeli langsung dari desa (opsional)."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Penjelajah Budaya",
+      "Keluarga",
+      "Pasangan",
+      "Pengunjung Pertama Kali ke Lombok",
+      "Penggemar Fotografi",
+      "Wisatawan yang Tertarik pada Warisan & Tradisi Lokal"
+    ],
+    "ctaTitle": "Siap Merasakan Jiwa Lombok?",
+    "ctaDesc": "Melampaui pantai dan temukan tradisi, keahlian pengrajin, dan keindahan abadi yang mendefinisikan Lombok. Dari tembikar dan tekstil tenun tangan hingga desa Sasak tradisional dan garis pantai Mandalika yang menakjubkan, Tur Warisan Mandalika menawarkan perjalanan yang bermakna ke dalam warisan budaya pulau yang kaya. Biarkan Travoscape membawa Anda lebih dari sekadar bertamasya dan masuk ke jantung autentik Lombok."
+  },
+  "westLombok": {
+    "title": "Pelarian Indah Lombok Barat",
+    "overviewTitle": "Gambaran Umum",
+    "overviewP1": "Nikmati keindahan abadi garis pantai barat Lombok dengan West Lombok Scenic Escape. Perjalanan santai sehari penuh ini membawa Anda menyusuri beberapa pantai paling indah, sudut pandang tebing pantai yang dramatis, dan landmark budaya, menawarkan perpaduan sempurna antara alam, sejarah, dan pemandangan laut yang menakjubkan.",
+    "overviewP2": "Dari tebing panorama Bukit Malimbu dan pantai damai Pantai Nipah hingga Pura Batu Bolong yang ikonik menghadap ke laut, tur ini dirancang untuk wisatawan yang ingin bersantai dan menikmati pantai barat Lombok yang menakjubkan dengan kecepatan yang nyaman.",
+    "highlightsTitle": "Sorotan Perjalanan",
+    "highlights": [
+      "Bukit Malimbu",
+      "Pantai Nipah",
+      "Pantai Pandanan",
+      "Titik Pandang Villa Hantu",
+      "Pantai Senggigi",
+      "Pura Batu Bolong",
+      "Perjalanan Pesisir yang Indah",
+      "Sopir Pribadi",
+      "Sopir & Pemandu Wisata Berbahasa Inggris"
+    ],
+    "itineraryTitle": "Rencana Perjalanan Pelarian Indah Lombok Barat",
+    "itinerary": [
+      {
+        "title": "Penjemputan di Hotel",
+        "desc": "Mulai perjalanan Anda dengan penjemputan yang nyaman dari hotel Anda sebelum menuju garis pantai barat Lombok yang indah."
+      },
+      {
+        "title": "Bukit Malimbu",
+        "desc": "Pemberhentian pertama Anda adalah Bukit Malimbu, salah satu sudut pandang paling terkenal di Lombok. Nikmati pemandangan panorama spektakuler yang menghadap ke lautan biru kehijauan dan Kepulauan Gili di kejauhan."
+      },
+      {
+        "title": "Pantai Nipah",
+        "desc": "Lanjutkan ke Pantai Nipah yang tenang, yang dikenal karena perairannya yang tenang, suasana damai, dan hamparan pasir putih yang indah. Berjalan santai di sepanjang garis pantai atau sekadar nikmati angin laut."
+      },
+      {
+        "title": "Pantai Pandanan",
+        "desc": "Kunjungi Pantai Pandanan, permata pesisir tersembunyi yang dikelilingi oleh air sebening kristal dan desa nelayan setempat. Ini adalah tempat yang sempurna untuk bersantai sambil menikmati keindahan alam Lombok."
+      },
+      {
+        "title": "Makan Siang di Restoran Lokal",
+        "desc": "Nikmati makan siang lezat di restoran lokal yang dipilih dengan cermat yang menyajikan hidangan laut segar dan masakan asli Indonesia."
+      },
+      {
+        "title": "Titik Pandang Villa Hantu",
+        "desc": "Menuju ke Villa Hantu yang terkenal, sebuah vila tepi tebing terbengkalai yang menawarkan salah satu sudut pandang paling spektakuler di sepanjang pantai barat Lombok. Abadikan foto-foto panorama tak terlupakan yang menghadap ke Samudra Hindia."
+      },
+      {
+        "title": "Pantai Senggigi",
+        "desc": "Habiskan waktu menjelajahi Pantai Senggigi, tujuan pantai paling terkenal di Lombok. Bersantai di tepi pantai, telusuri kafe dan toko lokal terdekat, atau sekadar berjemur di suasana pesisir yang semarak."
+      },
+      {
+        "title": "Pura Batu Bolong",
+        "desc": "Akhiri perjalanan Anda di Pura Batu Bolong, pura Hindu tepi laut yang indah dibangun di atas tebing berbatu yang menghadap ke laut. Landmark damai ini adalah salah satu lokasi terbaik di Lombok untuk pemandangan matahari terbenam dan eksplorasi budaya."
+      },
+      {
+        "title": "Kembali ke Hotel",
+        "desc": "Setelah hari santai menjelajahi garis pantai barat Lombok, nikmati perjalanan pulang yang nyaman ke hotel Anda."
+      }
+    ],
+    "includedTitle": "Yang Termasuk",
+    "included": [
+      "Kendaraan Ber-AC Pribadi",
+      "Sopir Berbahasa Inggris",
+      "Pemandu Wisata Berbahasa Inggris",
+      "Penjemputan & Pengantaran Hotel",
+      "Bahan Bakar",
+      "Biaya Parkir",
+      "Biaya Masuk",
+      "Air Mineral"
+    ],
+    "notIncludedTitle": "Tidak Termasuk",
+    "notIncluded": [
+      "Makan Siang",
+      "Pengeluaran Pribadi"
+    ],
+    "goodToKnowTitle": "Hal yang Perlu Diketahui",
+    "goodToKnow": [
+      "Tur pribadi eksklusif untuk grup Anda.",
+      "Tersedia setiap hari.",
+      "Cocok untuk semua umur.",
+      "Disarankan memakai sepatu berjalan yang nyaman, kacamata hitam, tabir surya, dan topi.",
+      "Tur ini ideal bagi wisatawan yang mencari pengalaman jalan-jalan santai daripada aktivitas berat.",
+      "Pura Batu Bolong adalah tempat ibadah yang aktif; pengunjung diminta untuk berpakaian dengan sopan."
+    ],
+    "perfectForTitle": "Sempurna Untuk",
+    "perfectFor": [
+      "Pasangan & Bulan Madu",
+      "Keluarga",
+      "Penggemar Fotografi",
+      "Pencinta Alam",
+      "Pengunjung Pertama Kali ke Lombok",
+      "Wisatawan yang Mencari Pengalaman Pantai Santai"
+    ],
+    "ctaTitle": "Siap Menjelajahi Pantai Barat Lombok yang Indah?",
+    "ctaDesc": "Temukan tebing pesisir yang dramatis, pantai yang tenang, dan landmark budaya ikonik di West Lombok Scenic Escape. Dari pemandangan Bukit Malimbu yang menakjubkan hingga pesona damai Pura Batu Bolong, perjalanan ini menawarkan pengenalan yang sempurna akan keindahan dan ketenangan garis pantai barat Lombok. Biarkan Travoscape membawa Anda dalam petualangan pemandangan yang tak akan pernah Anda lupakan."
   }
 }
