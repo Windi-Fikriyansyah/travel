@@ -49,7 +49,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
             <nav className="hidden md:flex gap-8">
               <Link href="/" className={getLinkClass("/")}>{dict.home}</Link>
               <Link href="/destinations" className={getLinkClass("/destinations")}>{dict.destinations}</Link>
-              <Link href="#" className={getLinkClass("/services")}>{dict.services}</Link>
+              <Link href="/customize-trip" className={getLinkClass("/customize-trip")}>{dict.customizeTrip}</Link>
             </nav>
           </div>
           <Link href="/" className="flex items-center">
@@ -91,7 +91,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
           <Link onClick={() => setIsMenuOpen(false)} href="/destinations" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.destinations}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="/about" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.about}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="/contact" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.contact}</Link>
-          <Link onClick={() => setIsMenuOpen(false)} href="#" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.services}</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/customize-trip" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.customizeTrip}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="/" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.home}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="#" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.faq}</Link>
           

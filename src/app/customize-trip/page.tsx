@@ -1,0 +1,45 @@
+import CustomizeTripForm from "@/components/CustomizeTripForm";
+import { getDictionary, Locale } from "@/dictionaries";
+import { cookies } from "next/headers";
+import Image from "next/image";
+
+export default async function CustomizeTrip() {
+  const cookieStore = await cookies();
+  const lang = (cookieStore.get('locale')?.value || 'en') as Locale;
+  const dict = await getDictionary(lang);
+
+  return (
+    <>
+      {/* Hero Section */}
+      <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center mb-section-gap overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqrf7rv013Q5YzodMvV_P7PO9C1ouRRB37hW5-b0IlI_i7UjgLuOUGu3rgavrnHQkQveK8Wa8k1FwUyu_Y6hJ_OHrUvw_YKxOjueKd8upqssKuLcGWMyRe-cqBp0s8Eq8AcVyMkeT0myLVDWil3D1Ucv5AxtV72q2LqakxuJVb8IuARUjvNuEaQ8-b8Mzjo-FUCaLLZUAILzE8UdTyTJZhJx8jsIXpsTZJJf_pmQLF2IZ56VoNpuUNIw"
+            alt="Beautiful sunset over calm turquoise ocean waters"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-surface/40 backdrop-blur-[2px]"></div>
+        </div>
+        
+        <div className="relative z-10 text-center px-margin-mobile md:px-margin-desktop">
+          <span className="font-label-lg text-label-lg text-primary-container bg-primary/20 px-4 py-1 rounded-full uppercase mb-6 inline-block backdrop-blur-md">
+            {dict.header.customizeTrip}
+          </span>
+          <h1 className="font-display-lg text-4xl md:text-5xl text-on-surface mb-6 leading-tight drop-shadow-md">
+            Design Your Dream <span className="italic text-primary drop-shadow-none">Lombok</span> Getaway
+          </h1>
+          <p className="font-body-lg text-on-surface-variant max-w-2xl mx-auto drop-shadow-sm bg-surface/30 backdrop-blur-sm p-4 rounded-xl">
+            Tell us what you love, and our local experts will craft a personalized itinerary just for you.
+          </p>
+        </div>
+      </section>
+
+      {/* Form Section */}
+      <section className="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop mb-section-gap">
+        <CustomizeTripForm />
+      </section>
+    </>
+  );
+}
