@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 type FormData = {
   arrivalDate: string;
@@ -12,7 +13,6 @@ type FormData = {
   destinations: string[];
   services: string[];
   vehicle: string;
-  budget: string;
   fullName: string;
   nationality: string;
   email: string;
@@ -29,13 +29,139 @@ const initialFormData: FormData = {
   destinations: [],
   services: [],
   vehicle: '',
-  budget: '',
   fullName: '',
   nationality: '',
   email: '',
   whatsapp: '',
   specialRequests: '',
 };
+
+function DestinationCard({
+  place,
+  isSelected,
+  onToggle,
+}: {
+  place: string;
+  isSelected: boolean;
+  onToggle: () => void;
+}) {
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  let images = ['/assets/mandalika1.jpeg', '/assets/mandalika2.jpeg'];
+  if (place === 'Tanjung Aan') {
+    images = ['/assets/aan1.jpeg', '/assets/aan2.jpeg'];
+  } else if (place === 'Merese Hill') {
+    images = ['/assets/merese1.jpeg', '/assets/merese2.jpeg'];
+  } else if (place === 'Selong Belanak') {
+    images = ['/assets/selong1.jpeg', '/assets/selong2.jpeg'];
+  } else if (place === 'Mawun') {
+    images = ['/assets/mawun1.jpeg', '/assets/mawun2.jpeg'];
+  } else if (place === 'Gili Trawangan') {
+    images = ['/assets/gili1.jpeg', '/assets/gili2.jpeg', '/assets/gili3.jpeg'];
+  } else if (place === 'Gili Air') {
+    images = ['/assets/giliair1.jpeg', '/assets/giliair2.jpeg'];
+  } else if (place === 'Gili Meno') {
+    images = ['/assets/meno1.jpeg', '/assets/meno2.jpeg'];
+  } else if (place === 'Gili Nanggu') {
+    images = ['/assets/naggu1.jpeg', '/assets/naggu2.jpeg'];
+  } else if (place === 'Gili Sudak') {
+    images = ['/assets/sudak1.jpeg', '/assets/sudak2.jpeg'];
+  } else if (place === 'Gili Kedis') {
+    images = ['/assets/kedis1.jpeg', '/assets/kedis2.jpeg'];
+  } else if (place === 'Pink Beach') {
+    images = ['/assets/pink1.jpeg', '/assets/pink2.jpeg', '/assets/pink3.jpeg'];
+  } else if (place === 'Gili Petelu') {
+    images = ['/assets/petelu1.jpeg', '/assets/petelu2.jpeg'];
+  } else if (place === 'Gili Pasir') {
+    images = ['/assets/pasir1.jpeg', '/assets/pasir2.jpeg'];
+  } else if (place === 'Gili Kondo') {
+    images = ['/assets/kondo1.jpeg', '/assets/kondo2.jpeg'];
+  } else if (place === 'Benang Kelambu') {
+    images = ['/assets/kelambu1.jpeg', '/assets/kelambu2.jpeg'];
+  } else if (place === 'Benang Stokel') {
+    images = ['/assets/stokel1.jpeg', '/assets/stokel2.jpeg'];
+  } else if (place === 'Sendang Gile') {
+    images = ['/assets/gile1.jpeg', '/assets/gile2.jpeg'];
+  } else if (place === 'Tiu Kelep') {
+    images = ['/assets/tiu1.jpeg', '/assets/tiu2.jpeg'];
+  } else if (place === 'Sembalun') {
+    images = ['/assets/sembalun1.jpeg', '/assets/sembalun2.jpeg'];
+  } else if (place === 'Bukit Selong') {
+    images = ['/assets/selon1.jpeg', '/assets/selon2.jpeg'];
+  }
+
+  return (
+    <div
+      onClick={onToggle}
+      className={`cursor-pointer group/card rounded-xl border overflow-hidden transition-all duration-300 hover-lift ${isSelected ? 'border-primary bg-primary/5 shadow-md ring-1 ring-primary' : 'border-outline-variant hover:border-primary/50 bg-surface'}`}
+    >
+      <div
+        className="relative w-full h-36 sm:h-44 overflow-hidden group/img select-none"
+        onMouseLeave={() => setActiveSlide(0)}
+      >
+        <div
+          className="flex h-full transition-transform duration-700 ease-in-out"
+          style={{
+            width: `${images.length * 100}%`,
+            transform: `translateX(-${(activeSlide * 100) / images.length}%)`,
+          }}
+        >
+          {images.map((imgSrc, idx) => (
+            <div
+              key={imgSrc}
+              className="h-full relative"
+              style={{ width: `${100 / images.length}%` }}
+            >
+              <Image
+                src={imgSrc}
+                alt={`${place} - ${idx + 1}`}
+                fill
+                className="object-cover transition-transform duration-700 group-hover/card:scale-105"
+                sizes="(max-width: 768px) 50vw, 33vw"
+              />
+            </div>
+          ))}
+        </div>
+
+        <div className="absolute inset-0 flex z-10">
+          {images.map((_, idx) => (
+            <div
+              key={idx}
+              className="flex-1 h-full"
+              onMouseEnter={() => setActiveSlide(idx)}
+              onClick={() => {}}
+            />
+          ))}
+        </div>
+
+        <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded-full font-label-sm tracking-wide opacity-90 z-20 pointer-events-none">
+          <span>
+            {activeSlide + 1} / {images.length}
+          </span>
+        </div>
+
+        <div className="absolute bottom-2 inset-x-0 flex justify-center gap-1.5 z-20 pointer-events-none">
+          {images.map((_, idx) => (
+            <span
+              key={idx}
+              className={`h-1.5 rounded-full transition-all duration-300 shadow-sm ${activeSlide === idx ? 'w-3 bg-white' : 'w-1.5 bg-white/50'}`}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="p-3.5 flex items-center gap-3">
+        <input
+          type="checkbox"
+          checked={isSelected}
+          onChange={() => {}}
+          className="w-5 h-5 accent-primary rounded pointer-events-none"
+        />
+        <span className="font-body-md font-medium text-on-surface line-clamp-1">{place}</span>
+      </div>
+    </div>
+  );
+}
 
 export default function CustomizeTripForm() {
   const [step, setStep] = useState(1);
@@ -174,12 +300,14 @@ export default function CustomizeTripForm() {
               ].map((group) => (
                 <div key={group.region}>
                   <h3 className="font-headline-sm mb-4 border-b border-outline-variant pb-2">{group.region}</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {group.places.map((place) => (
-                      <label key={place} className={`cursor-pointer flex items-center gap-3 p-3 rounded-lg border transition-all ${formData.destinations.includes(place) ? 'border-primary bg-primary/5' : 'border-outline-variant hover:border-primary/50'}`}>
-                        <input type="checkbox" checked={formData.destinations.includes(place)} onChange={() => handleCheckbox('destinations', place)} className="w-4 h-4 accent-primary rounded" />
-                        <span className="font-body-md text-on-surface">{place}</span>
-                      </label>
+                      <DestinationCard
+                        key={place}
+                        place={place}
+                        isSelected={formData.destinations.includes(place)}
+                        onToggle={() => handleCheckbox('destinations', place)}
+                      />
                     ))}
                   </div>
                 </div>
@@ -197,8 +325,8 @@ export default function CustomizeTripForm() {
                 <h3 className="font-headline-sm mb-4">Services Needed</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {[
-                    'Airport Transfer', 'Private Driver', 'English-speaking Guide',
-                    'Snorkeling Equipment', 'Private Boat', 'Drone Photography', 'Professional Photographer'
+                    'Airport Transfer', 'Private Driver',
+                    'Snorkeling Equipment', 'Private Boat'
                   ].map((service) => (
                     <label key={service} className={`cursor-pointer flex items-center gap-3 p-4 rounded-xl border transition-all ${formData.services.includes(service) ? 'border-primary bg-primary/5' : 'border-outline-variant hover:border-primary/50'}`}>
                       <input type="checkbox" checked={formData.services.includes(service)} onChange={() => handleCheckbox('services', service)} className="w-5 h-5 accent-primary rounded" />
@@ -214,18 +342,6 @@ export default function CustomizeTripForm() {
                   {['Standard MPV', 'Premium MPV', 'Luxury SUV', 'Minibus'].map((opt) => (
                     <label key={opt} className={`cursor-pointer border p-4 rounded-xl text-center transition-all ${formData.vehicle === opt ? 'border-primary bg-primary/5 text-primary' : 'border-outline-variant hover:border-primary/50 text-on-surface'}`}>
                       <input type="radio" name="vehicle" value={opt} checked={formData.vehicle === opt} onChange={handleChange} className="hidden" />
-                      <span className="font-label-md">{opt}</span>
-                    </label>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h3 className="font-headline-sm mb-4">Estimated Budget (Per Pax)</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  {['Under US$100', 'US$100–250', 'US$250–500', 'US$500+'].map((opt) => (
-                    <label key={opt} className={`cursor-pointer border p-4 rounded-xl text-center transition-all ${formData.budget === opt ? 'border-primary bg-primary/5 text-primary' : 'border-outline-variant hover:border-primary/50 text-on-surface'}`}>
-                      <input type="radio" name="budget" value={opt} checked={formData.budget === opt} onChange={handleChange} className="hidden" />
                       <span className="font-label-md">{opt}</span>
                     </label>
                   ))}
