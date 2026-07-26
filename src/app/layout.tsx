@@ -12,6 +12,11 @@ export const metadata: Metadata = {
     template: "%s | Travoscape"
   },
   description: "Curated Journeys",
+  icons: {
+    icon: "/assets/logo.png",
+    shortcut: "/assets/logo.png",
+    apple: "/assets/logo.png",
+  },
 };
 
 export default async function RootLayout({
