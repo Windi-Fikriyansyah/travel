@@ -8,10 +8,60 @@ import { cookies } from "next/headers";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://travoscape.id'),
   title: {
-    default: "Travoscape | Curated Journeys",
+    default: "Travoscape | Curated Journeys & Exclusive Lombok Travel",
     template: "%s | Travoscape"
   },
-  description: "Curated Journeys",
+  description: "Experience exclusive travel journeys, luxury private tours, and hidden island adventures across Lombok, the Gili Islands, and Indonesia with Travoscape.",
+  keywords: [
+    "travoscape",
+    "travel lombok",
+    "curated journeys indonesia",
+    "gili islands private tour",
+    "lombok travel agency",
+    "mandalika heritage tour",
+    "senaru sembalun rinjani",
+    "pink beach lombok",
+    "luxury travel indonesia",
+    "custom trip lombok",
+    "wisata lombok private"
+  ],
+  authors: [{ name: "Travoscape Team", url: "https://travoscape.id" }],
+  creator: "Travoscape",
+  publisher: "Travoscape",
+  openGraph: {
+    title: "Travoscape | Curated Journeys & Exclusive Lombok Travel",
+    description: "Discover curated travel journeys, hidden waterfalls, and private island escapes across Lombok and Indonesia.",
+    url: "https://travoscape.id",
+    siteName: "Travoscape",
+    locale: "id_ID",
+    alternateLocale: ["en_US"],
+    type: "website",
+    images: [
+      {
+        url: "/assets/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Travoscape - Curated Journeys in Lombok & Indonesia",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Travoscape | Curated Journeys & Exclusive Lombok Travel",
+    description: "Discover curated travel journeys, hidden waterfalls, and private island escapes across Lombok and Indonesia.",
+    images: ["/assets/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "/assets/logo.png",
     shortcut: "/assets/logo.png",
