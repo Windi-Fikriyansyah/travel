@@ -129,7 +129,7 @@ function DestinationCard({
               key={idx}
               className="flex-1 h-full"
               onMouseEnter={() => setActiveSlide(idx)}
-              onClick={() => {}}
+              onClick={() => { }}
             />
           ))}
         </div>
@@ -154,7 +154,7 @@ function DestinationCard({
         <input
           type="checkbox"
           checked={isSelected}
-          onChange={() => {}}
+          onChange={() => { }}
           className="w-5 h-5 accent-primary rounded pointer-events-none"
         />
         <span className="font-body-md font-medium text-on-surface line-clamp-1">{place}</span>
@@ -166,6 +166,7 @@ function DestinationCard({
 export default function CustomizeTripForm() {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState<FormData>(initialFormData);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
 
   const handleNext = () => setStep((s) => Math.min(s + 1, 5));
@@ -187,11 +188,29 @@ export default function CustomizeTripForm() {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
-    alert("Thank you! Your personalized itinerary request has been submitted.");
-    router.push('/');
+    setIsSubmitting(true);
+
+    try {
+      const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyHMn13hkth06h5-Dy2yIfQeHpg6dEzDtU5qK382tEGXUih_ojLTUBkjBQCO5GuaABocw/exec";
+      await fetch(WEB_APP_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      alert("Thank you! Your personalized itinerary request has been successfully submitted and saved.");
+      router.push('/');
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Something went wrong while sending your request. Please try again or contact us via WhatsApp.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -223,7 +242,7 @@ export default function CustomizeTripForm() {
         {step === 1 && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="font-headline-md text-3xl mb-8 text-on-surface">Step 1 — Tell Us About Your Trip</h2>
-            
+
             <div className="space-y-8">
               <div>
                 <h3 className="font-headline-sm mb-4">When are you planning to visit Lombok?</h3>
@@ -289,7 +308,7 @@ export default function CustomizeTripForm() {
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="font-headline-md text-3xl mb-8 text-on-surface">Step 3 — Places You'd Like to Visit</h2>
             <p className="text-on-surface-variant font-body-md mb-6">Select destinations</p>
-            
+
             <div className="space-y-8">
               {[
                 { region: 'South Lombok', places: ['Kuta Mandalika', 'Tanjung Aan', 'Merese Hill', 'Selong Belanak', 'Mawun'] },
@@ -319,7 +338,7 @@ export default function CustomizeTripForm() {
         {step === 4 && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="font-headline-md text-3xl mb-8 text-on-surface">Step 4 — Travel Preferences</h2>
-            
+
             <div className="space-y-8">
               <div>
                 <h3 className="font-headline-sm mb-4">Services Needed</h3>
@@ -354,7 +373,7 @@ export default function CustomizeTripForm() {
         {step === 5 && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="font-headline-md text-3xl mb-8 text-on-surface">Step 5 — Contact Details</h2>
-            
+
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col group">
@@ -380,11 +399,11 @@ export default function CustomizeTripForm() {
 
               <div className="flex flex-col group pt-4">
                 <label className="font-label-md text-on-surface-variant mb-2 group-focus-within:text-primary transition-colors">Special Requests</label>
-                <textarea 
-                  name="specialRequests" 
-                  value={formData.specialRequests} 
-                  onChange={handleChange} 
-                  rows={4} 
+                <textarea
+                  name="specialRequests"
+                  value={formData.specialRequests}
+                  onChange={handleChange}
+                  rows={4}
                   className="form-underline font-body-md text-on-surface p-3 border border-outline focus:border-primary outline-none bg-transparent rounded-lg resize-none"
                   placeholder="Examples: Vegetarian meals, Child seat, Anniversary trip, Birthday surprise, Flight number, Hotel pickup details..."
                 />
@@ -399,14 +418,14 @@ export default function CustomizeTripForm() {
               Back
             </button>
           ) : <div className="hidden md:block"></div>}
-          
+
           {step < 5 ? (
             <button type="button" onClick={handleNext} className="w-full md:w-auto px-8 py-3 bg-primary text-on-primary font-label-lg rounded-full hover:bg-primary/90 transition-colors shadow-md">
               Next Step
             </button>
           ) : (
-            <button type="submit" className="w-full md:w-auto px-8 py-3 bg-primary text-on-primary font-label-lg rounded-full hover:bg-primary/90 transition-colors shadow-md">
-              Create My Personalized Itinerary
+            <button type="submit" disabled={isSubmitting} className="w-full md:w-auto px-8 py-3 bg-primary text-on-primary font-label-lg rounded-full hover:bg-primary/90 transition-colors shadow-md disabled:opacity-70 disabled:cursor-not-allowed">
+              {isSubmitting ? "Submitting..." : "Create My Personalized Itinerary"}
             </button>
           )}
         </div>

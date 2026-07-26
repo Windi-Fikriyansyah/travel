@@ -80,28 +80,19 @@ export default async function Contact() {
             <div>
               <h3 className="font-headline-sm text-headline-sm mb-8 border-b border-secondary-container pb-4">{contactDict.studioTitle}</h3>
               <div className="space-y-8">
-                <div className="flex items-start gap-6">
-                  <span className="material-symbols-outlined text-primary mt-1">location_on</span>
-                  <div>
-                    <p className="font-label-lg text-label-lg text-on-surface uppercase mb-1">{contactDict.visitUs}</p>
-                    <address className="not-italic font-body-md text-on-surface-variant">
-                      {contactDict.address1}<br />
-                      {contactDict.address2}
-                    </address>
-                  </div>
-                </div>
+
                 <div className="flex items-start gap-6">
                   <span className="material-symbols-outlined text-primary mt-1">call</span>
                   <div>
                     <p className="font-label-lg text-label-lg text-on-surface uppercase mb-1">{contactDict.callUs}</p>
-                    <p className="font-body-md text-on-surface-variant">+33 5 59 12 34 56</p>
+                    <p className="font-body-md text-on-surface-variant">+6285110520266</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-6">
                   <span className="material-symbols-outlined text-primary mt-1">mail</span>
                   <div>
                     <p className="font-label-lg text-label-lg text-on-surface uppercase mb-1">{contactDict.emailUs}</p>
-                    <p className="font-body-md text-on-surface-variant">concierge@palmertravel.com</p>
+                    <p className="font-body-md text-on-surface-variant">travoscape@gmail.com</p>
                   </div>
                 </div>
               </div>
