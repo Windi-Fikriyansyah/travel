@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getDictionary, Locale } from "@/dictionaries";
 import { cookies } from "next/headers";
+import ContactClientForm from "@/components/ContactClientForm";
 
 export default async function Contact() {
   const cookieStore = await cookies();
@@ -41,38 +42,7 @@ export default async function Contact() {
       <section className="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-section-gap bg-surface-container-lowest">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-content-gap">
           {/* Left: Contact Form */}
-          <div>
-            <h2 className="font-headline-lg text-headline-lg mb-12">{contactDict.formTitle}</h2>
-            <form className="space-y-10">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-                <div className="flex flex-col group">
-                  <label className="font-label-md text-label-md text-on-surface-variant mb-2 group-focus-within:text-primary transition-colors">{contactDict.labelName}</label>
-                  <input className="form-underline font-body-md text-on-surface" placeholder={contactDict.placeholderName} type="text" />
-                </div>
-                <div className="flex flex-col group">
-                  <label className="font-label-md text-label-md text-on-surface-variant mb-2 group-focus-within:text-primary transition-colors">{contactDict.labelEmail}</label>
-                  <input className="form-underline font-body-md text-on-surface" placeholder={contactDict.placeholderEmail} type="email" />
-                </div>
-              </div>
-              <div className="flex flex-col group">
-                <label className="font-label-md text-label-md text-on-surface-variant mb-2 group-focus-within:text-primary transition-colors">{contactDict.labelInterest}</label>
-                <select className="form-underline font-body-md text-on-surface appearance-none bg-transparent">
-                  <option>{contactDict.opt1}</option>
-                  <option>{contactDict.opt2}</option>
-                  <option>{contactDict.opt3}</option>
-                  <option>{contactDict.opt4}</option>
-                </select>
-              </div>
-              <div className="flex flex-col group">
-                <label className="font-label-md text-label-md text-on-surface-variant mb-2 group-focus-within:text-primary transition-colors">{contactDict.labelMessage}</label>
-                <textarea className="form-underline font-body-md text-on-surface resize-none" placeholder={contactDict.placeholderMessage} rows={4}></textarea>
-              </div>
-              <button className="group relative px-10 py-4 border border-secondary text-primary font-label-lg transition-all hover:bg-primary/5" type="button">
-                {contactDict.sendBtn}
-                <span className="absolute -right-4 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:right-4 transition-all duration-300 material-symbols-outlined">arrow_right_alt</span>
-              </button>
-            </form>
-          </div>
+          <ContactClientForm contactDict={contactDict} />
 
           {/* Right: Information */}
           <div className="lg:pl-margin-desktop space-y-section-gap">
