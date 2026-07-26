@@ -6,7 +6,7 @@ import { getDictionary, Locale } from "@/dictionaries";
 import { cookies } from "next/headers";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://travel-example.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://travoscape.id'),
   title: {
     default: "Travoscape | Curated Journeys",
     template: "%s | Travoscape"
