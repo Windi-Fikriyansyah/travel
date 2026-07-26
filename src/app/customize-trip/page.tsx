@@ -14,8 +14,8 @@ export default async function CustomizeTrip() {
       <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center mb-section-gap overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqrf7rv013Q5YzodMvV_P7PO9C1ouRRB37hW5-b0IlI_i7UjgLuOUGu3rgavrnHQkQveK8Wa8k1FwUyu_Y6hJ_OHrUvw_YKxOjueKd8upqssKuLcGWMyRe-cqBp0s8Eq8AcVyMkeT0myLVDWil3D1Ucv5AxtV72q2LqakxuJVb8IuARUjvNuEaQ8-b8Mzjo-FUCaLLZUAILzE8UdTyTJZhJx8jsIXpsTZJJf_pmQLF2IZ56VoNpuUNIw"
-            alt="Beautiful sunset over calm turquoise ocean waters"
+            src="/assets/custom.jpeg"
+            alt="Customize Your Trip in Lombok"
             fill
             className="object-cover"
             priority

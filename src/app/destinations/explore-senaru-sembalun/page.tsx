@@ -10,20 +10,20 @@ export default async function SenaruSembalunPage() {
   const dict = await getDictionary(lang);
   const { senaruSembalun: g, destinations } = dict as any;
 
-  const waLinkText = lang === 'id' 
-      ? `Halo Palmer Travel, saya tertarik dengan paket ${g.title}` 
-      : `Hello Palmer Travel, I am interested in the ${g.title} package`;
+  const waLinkText = lang === 'id'
+    ? `Halo Travoscape, saya tertarik dengan paket ${g.title}`
+    : `Hello Travoscape, I am interested in the ${g.title} package`;
 
-  const waLink = `https://wa.me/6281234567890?text=${encodeURIComponent(waLinkText)}`;
+  const waLink = `https://wa.me/6285110520266?text=${encodeURIComponent(waLinkText)}`;
 
   return (
     <>
       <ScrollReveal />
-      
+
       {/* Hero Section */}
       <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center overflow-hidden">
-        <Image 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbVaJS6Lv9k0roM40wGDOui9XoIjYFqRy1Z_mAth6Zwy6TUiqi5op0pjl78EN-GSxVt2hCOxyRb8vkKhZ--dtwjM5kguDwDG9o3eP_xaCNg170A9xH1jo2Q0hOnbMo9j8xUXhut4yO1CYEToT06ez9LxnWQi75qMX7SbIqwaS-7g_hjAxAs_Ixz-OULsi5R_3SLBBylUaKuttWthofKWLvIGv5CjBEzV0_y5oAWppnI7_atNuSbFPe2g" 
+        <Image
+          src="/assets/sembalun1.jpeg"
           alt="Explore Senaru & Sembalun"
           fill
           className="object-cover brightness-75"
@@ -37,7 +37,7 @@ export default async function SenaruSembalunPage() {
 
       {/* Main Content */}
       <main className="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-content-gap">
-        
+
         {/* Left Column (Overview, Highlights, Itinerary) */}
         <div className="lg:col-span-8 space-y-16">
           <section className="reveal-on-scroll">
@@ -78,13 +78,13 @@ export default async function SenaruSembalunPage() {
         {/* Right Column (Info Box) */}
         <aside className="lg:col-span-4 space-y-12">
           <div className="bg-surface-container-lowest p-8 border border-outline-variant reveal-on-scroll sticky top-32">
-            
+
             <div className="mb-10">
               <h3 className="font-headline-sm text-headline-sm mb-4 border-b border-secondary-container pb-2">{g.includedTitle}</h3>
               <ul className="space-y-4">
                 {g.included.map((inc: string, idx: number) => (
                   <li key={idx} className="flex gap-3 text-on-surface-variant font-body-sm items-start">
-                    <span className="material-symbols-outlined text-green-600 text-[20px] mt-0.5">done</span> 
+                    <span className="material-symbols-outlined text-green-600 text-[20px] mt-0.5">done</span>
                     <span className="flex-1">{inc}</span>
                   </li>
                 ))}
@@ -96,7 +96,7 @@ export default async function SenaruSembalunPage() {
               <ul className="space-y-4">
                 {g.notIncluded.map((notInc: string, idx: number) => (
                   <li key={idx} className="flex gap-3 text-on-surface-variant font-body-sm items-start">
-                    <span className="material-symbols-outlined text-red-500 text-[20px] mt-0.5">close</span> 
+                    <span className="material-symbols-outlined text-red-500 text-[20px] mt-0.5">close</span>
                     <span className="flex-1">{notInc}</span>
                   </li>
                 ))}
@@ -111,7 +111,7 @@ export default async function SenaruSembalunPage() {
                 ))}
               </ul>
             </div>
-            
+
             <div>
               <h3 className="font-headline-sm text-headline-sm mb-4 border-b border-secondary-container pb-2">{g.perfectForTitle}</h3>
               <div className="flex flex-wrap gap-2">

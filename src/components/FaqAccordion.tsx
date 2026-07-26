@@ -16,7 +16,7 @@ export default function FaqAccordion({ title, faqs }: { title: string, faqs: Faq
 
   return (
     <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1024px] mx-auto fade-in">
-      <h2 className="font-headline-lg text-headline-lg text-primary italic text-center mb-12">{title}</h2>
+      {title ? <h2 className="font-headline-lg text-headline-lg text-primary italic text-center mb-12">{title}</h2> : null}
       <div className="space-y-4">
         {faqs.map((faq, idx) => (
           <div key={idx} className="border border-secondary-container rounded-lg overflow-hidden">

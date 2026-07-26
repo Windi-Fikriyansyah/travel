@@ -26,10 +26,10 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
   }, []);
 
   const getWaLink = (packageName: string) => {
-    const text = lang === 'id' 
-      ? `Halo Palmer Travel, saya tertarik dengan paket ${packageName}` 
-      : `Hello Palmer Travel, I am interested in the ${packageName} package`;
-    return `https://wa.me/6281234567890?text=${encodeURIComponent(text)}`;
+    const text = lang === 'id'
+      ? `Halo Travoscape, saya tertarik dengan paket ${packageName}`
+      : `Hello Travoscape, I am interested in the ${packageName} package`;
+    return `https://wa.me/6285110520266?text=${encodeURIComponent(text)}`;
   };
 
   return (
@@ -54,11 +54,10 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
-              className={`whitespace-nowrap shrink-0 px-6 py-2 font-label-md tracking-wider transition-all ${
-                activeFilter === filter
-                  ? "border border-primary text-primary hover:bg-primary/5"
-                  : "border border-outline-variant text-on-surface-variant hover:border-primary"
-              }`}
+              className={`whitespace-nowrap shrink-0 px-6 py-2 font-label-md tracking-wider transition-all ${activeFilter === filter
+                ? "border border-primary text-primary hover:bg-primary/5"
+                : "border border-outline-variant text-on-surface-variant hover:border-primary"
+                }`}
             >
               {filter}
             </button>
@@ -73,12 +72,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/gili-islands-escape" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="Destination" 
+                <Image
+                  alt="Destination"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3Y-iVQCGGGlo52XiUBLM3beaZM19Wr7JpBVTwFpZi6BDcS-DPpDiGzj_4_pYrECJ3SUrtzEVSTs8qychwoBsk2Xw5xY-Hzdb40c1-1UWFiFntA0JTuSGops-yD4tTIgDGCq4Ly6C5kI8jKz35M1lb4iB-egyHhzDhPC6tfmPHG0mSr58TsrbgBwFiKRwt2djmQ7A7UYMN0wO9JxPDJVe6pdjNxQJi0EyyPynxsEh-qD8cRcs29FQ_3g" 
+                  className="w-full h-[300px] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/gili1.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-surface-container-lowest/90 px-3 py-1 font-label-md text-primary tracking-widest uppercase text-xs">{dict.featured}</div>
               </Link>
@@ -96,12 +95,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/secret-gili-expedition" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="Secret Gili Expedition" 
+                <Image
+                  alt="Secret Gili Expedition"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhpyoIssem3RuRP5cKSGxZDGStHYL7xulU9-Y86BukGv5NFxdOJFBal16B-NhEWdZRy_CRSYWG8zYNYB2Z2RO31Ad5Mjte36eV4YvzbEXqSdrlFvXvmec3fxnuQ_oSZ33kKs3ylnOzE2mWLEdOJ7LvbZpVtS4zja9GiungVMJ-AX7YOZJFu8wKMxEcKsUflUJ7j10s1ZSu0TFQ3hyi1HioT_3Fo2KHijxKxF9USUkOl0uFxpek1L0WhQ" 
+                  className="w-full h-[300px] object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/kedis1.jpeg"
                 />
               </Link>
               <h2 className="font-headline-sm text-headline-sm mb-2">Secret Gili Expedition</h2>
@@ -118,12 +117,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/pink-beach-sandbar-adventure" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="Pink Beach & Sandbar Adventure" 
+                <Image
+                  alt="Pink Beach & Sandbar Adventure"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfXoSPDcWWvHE1Amo0AxDkFVAwUMavDzimQtidqyzAo6JLbZ9Ch-6nhHkH4RgTUO3Dlyar6XU4WiROwHhD-eHrBrG5wL6THsOax614PyJ8zS3q41MDR4cqa5rBNX8kXWhyvk1t3JHD8hEl8DAMeMcTDmcba5DjP0hqoiM7TWGz5rfiNz_8PS3fJC2YYYQAUesKguBhjqazYirwmp_AhDAB3uge2lM_vZ53GRrRm4UVoWcSEHTsFxs6AQ" 
+                  className="w-full h-[300px] object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/pink1.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-surface-container-lowest/90 px-3 py-1 font-label-md text-primary tracking-widest uppercase text-xs">{dict.limited}</div>
               </Link>
@@ -141,12 +140,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/hidden-waterfall-escape" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="Hidden Waterfall Escape" 
+                <Image
+                  alt="Hidden Waterfall Escape"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT1TdOaMIEcRJaMk8CSKX_4nj2SfGm6wH6jVYUCsNrNZ5JKYqwvCqaXd8jhna3iDTom6pNh5XkWcmdMYlpifsfOMWXuFK3aypglKt4PXYfRefs7O30zN0OtiX0ciAjkEX5Wuy6nn-dzvxQkdZkToGTqDVFURanYCQP8NLBORXCUzVBHxxWkjhVC-HlKdqBxBfO5zrGgpRUlE73huNJdFy8oI0D8c9Ye2tLiDWYWI41TM-txzEQoI11Qg" 
+                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/gile1.jpeg"
                 />
               </Link>
               <h2 className="font-headline-sm text-headline-sm mb-2">Hidden Waterfall Escape</h2>
@@ -163,12 +162,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/explore-senaru-sembalun" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="Explore Senaru & Sembalun" 
+                <Image
+                  alt="Explore Senaru & Sembalun"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbVaJS6Lv9k0roM40wGDOui9XoIjYFqRy1Z_mAth6Zwy6TUiqi5op0pjl78EN-GSxVt2hCOxyRb8vkKhZ--dtwjM5kguDwDG9o3eP_xaCNg170A9xH1jo2Q0hOnbMo9j8xUXhut4yO1CYEToT06ez9LxnWQi75qMX7SbIqwaS-7g_hjAxAs_Ixz-OULsi5R_3SLBBylUaKuttWthofKWLvIGv5CjBEzV0_y5oAWppnI7_atNuSbFPe2g" 
+                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/sembalun1.jpeg"
                 />
               </Link>
               <h2 className="font-headline-sm text-headline-sm mb-2">Explore Senaru & Sembalun</h2>
@@ -185,12 +184,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/mandalika-heritage-tour" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="Mandalika Heritage Tour" 
+                <Image
+                  alt="Mandalika Heritage Tour"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6hkU06CpOaIDu7GpKNBgP8bgd2q6LIP0WC1UzfNlxTXxyfN-ogSn4FoUiIgj632s4C3-pwKuqn4yXmgyWHMV3UeX4q2U3RusMYyNcFNH-sq4Yf3Mr_iSIEeoy66FqTMjyKAlSjjh4j5h6EcDOD6TLGs0nKV4rWTsWV10pLWe2Bu-n2z7l7TWvUAFctHwsOsqL9PbsIweU_pNAjl-DFbzpOzgpHxQkvKLUkU8qmACIQESRLRrMn_UXzw" 
+                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/mandalika1.jpeg"
                 />
               </Link>
               <h2 className="font-headline-sm text-headline-sm mb-2">Mandalika Heritage Tour</h2>
@@ -207,12 +206,12 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
           <div className="group flex flex-col">
             <div className="hover-lift flex-1 flex flex-col">
               <Link href="/destinations/west-lombok-scenic-escape" className="relative overflow-hidden mb-6 image-matting block">
-                <Image 
-                  alt="West Lombok Scenic Escape" 
+                <Image
+                  alt="West Lombok Scenic Escape"
                   width={600}
                   height={300}
-                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700" 
-                  src="/images/west_lombok_escape.png" 
+                  className="w-full h-[300px] object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                  src="/assets/sceni12.jpeg"
                 />
               </Link>
               <h2 className="font-headline-sm text-headline-sm mb-2">West Lombok Scenic Escape</h2>
@@ -235,12 +234,15 @@ export default function DestinationsClient({ dict, lang }: { dict: Dictionary['d
             {dict.ctaSubtitle}
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <button className="px-10 py-4 bg-primary text-on-primary font-label-lg uppercase tracking-widest hover:bg-primary-container transition-all">
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="px-10 py-4 bg-primary text-on-primary font-label-lg uppercase tracking-widest hover:bg-primary-container transition-all text-center cursor-pointer"
+            >
               {dict.planBtn}
             </button>
-            <button className="px-10 py-4 border border-secondary text-secondary font-label-lg uppercase tracking-widest hover:bg-secondary/5 transition-all">
+            <a href="https://wa.me/message/AZHNPNKH53WSJ1" target="_blank" rel="noopener noreferrer" className="px-10 py-4 border border-secondary text-secondary font-label-lg uppercase tracking-widest hover:bg-secondary/5 transition-all text-center">
               {dict.brochureBtn}
-            </button>
+            </a>
           </div>
         </div>
       </section>

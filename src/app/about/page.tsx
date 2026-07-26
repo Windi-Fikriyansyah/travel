@@ -28,11 +28,11 @@ export default async function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
           <div className="md:col-span-5 reveal-on-scroll">
             <div className="image-matting relative aspect-[3/4] w-full">
-              <Image 
-                className="object-cover" 
+              <Image
+                className="object-cover"
                 fill
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfFohMZlRGKw-_PulTtrmG96Ftx9ti3V58QwHnr_TBfQy5D2S8WpIrHnTAKahhQ9GPgvju-UJfEpTQ76RLeBN6rdxeMarLc7xokcpcmdfNc5ZcXQ_KgdTScOzItD5h1fKgdAzHcu1ic9xbS8v0anLCU2Y8JmBcSZxGcv6gLWQ7Z8_UUNTOUAlbuP7RJpWwLNrzYyycI2MxLGKiEC1Q2gCPxgnaUmWCGZS9KUr-L2lr9IWNsJgGOZhqUA" 
-                alt="A vintage-inspired photograph of a classic wooden boat gliding across a serene, crystal-clear teal lake in the Italian Alps."
+                src="/assets/about.jpeg"
+                alt="The Story of Travoscape"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
@@ -65,10 +65,10 @@ export default async function About() {
             <h2 className="font-headline-lg text-headline-lg mb-4">{aboutDict.valuesTitle}</h2>
             <div className="w-24 h-[1px] bg-secondary mx-auto"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             {/* Value 1 */}
             <div className="bg-surface p-12 border border-outline-variant flex flex-col items-center text-center hover:shadow-lg transition-all duration-500 reveal-on-scroll">
-              <span className="material-symbols-outlined text-primary text-4xl mb-6">eco</span>
+              <span className="material-symbols-outlined text-primary text-4xl mb-6">explore</span>
               <h3 className="font-headline-sm text-headline-sm mb-4">{aboutDict.val1Title}</h3>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
                 {aboutDict.val1Desc}
@@ -76,7 +76,7 @@ export default async function About() {
             </div>
             {/* Value 2 */}
             <div className="bg-surface p-12 border border-outline-variant flex flex-col items-center text-center hover:shadow-lg transition-all duration-500 reveal-on-scroll" style={{ transitionDelay: "100ms" }}>
-              <span className="material-symbols-outlined text-primary text-4xl mb-6">auto_awesome</span>
+              <span className="material-symbols-outlined text-primary text-4xl mb-6">handshake</span>
               <h3 className="font-headline-sm text-headline-sm mb-4">{aboutDict.val2Title}</h3>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
                 {aboutDict.val2Desc}
@@ -84,10 +84,26 @@ export default async function About() {
             </div>
             {/* Value 3 */}
             <div className="bg-surface p-12 border border-outline-variant flex flex-col items-center text-center hover:shadow-lg transition-all duration-500 reveal-on-scroll" style={{ transitionDelay: "200ms" }}>
-              <span className="material-symbols-outlined text-primary text-4xl mb-6">hotel_class</span>
+              <span className="material-symbols-outlined text-primary text-4xl mb-6">verified</span>
               <h3 className="font-headline-sm text-headline-sm mb-4">{aboutDict.val3Title}</h3>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
                 {aboutDict.val3Desc}
+              </p>
+            </div>
+            {/* Value 4 */}
+            <div className="bg-surface p-12 border border-outline-variant flex flex-col items-center text-center hover:shadow-lg transition-all duration-500 reveal-on-scroll" style={{ transitionDelay: "300ms" }}>
+              <span className="material-symbols-outlined text-primary text-4xl mb-6">eco</span>
+              <h3 className="font-headline-sm text-headline-sm mb-4">{aboutDict.val4Title}</h3>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                {aboutDict.val4Desc}
+              </p>
+            </div>
+            {/* Value 5 */}
+            <div className="bg-surface p-12 border border-outline-variant flex flex-col items-center text-center hover:shadow-lg transition-all duration-500 reveal-on-scroll" style={{ transitionDelay: "400ms" }}>
+              <span className="material-symbols-outlined text-primary text-4xl mb-6">favorite</span>
+              <h3 className="font-headline-sm text-headline-sm mb-4">{aboutDict.val5Title}</h3>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                {aboutDict.val5Desc}
               </p>
             </div>
           </div>
@@ -127,9 +143,18 @@ export default async function About() {
                   </p>
                 </div>
               </li>
+              <li className="flex gap-6">
+                <span className="font-display-lg text-primary opacity-20 leading-none">04</span>
+                <div>
+                  <h4 className="font-label-lg text-label-lg uppercase mb-2">{aboutDict.why4Title}</h4>
+                  <p className="font-body-md text-on-surface-variant">
+                    {aboutDict.why4Desc}
+                  </p>
+                </div>
+              </li>
             </ul>
             <div className="mt-12">
-              <Link href="#" className="inline-block px-10 py-4 border border-secondary text-primary font-label-lg uppercase tracking-widest hover:bg-primary-fixed-dim transition-colors">
+              <Link href="/destinations" className="inline-block px-10 py-4 border border-secondary text-primary font-label-lg uppercase tracking-widest hover:bg-primary-fixed-dim transition-colors">
                 {aboutDict.experienceBtn}
               </Link>
             </div>
@@ -137,20 +162,20 @@ export default async function About() {
           <div className="w-full md:w-1/2 relative min-h-[500px] mt-16 md:mt-0 reveal-on-scroll">
             {/* Overlapping Images */}
             <div className="image-matting absolute top-0 right-0 w-4/5 z-20 transform rotate-2 relative h-80">
-              <Image 
-                className="object-cover" 
+              <Image
+                className="object-cover"
                 fill
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6RQQzOcWRTfYlmQ5hr3Z5p4DnxhsOGzV-Qi4Ie50gCKjK7HmAE5cluMBiWIiInbV8t1PsDxnaazaF9No9J7nRxUqTCwqw8sAVoA9L8f8mE6Eh6PWgujGebFz6WwidWqPgdg1JXPrsCTqsLcg3kP77DxhhtwmvySP4M3UtNO0f_pOGgt89I7QWxs4t9VutJZswbmOG7_OnARWFrkVyzjzclXTB2Qu63w965DI94sf5pU9Z9ZyOnyGbgg" 
-                alt="An elegant table setting for an outdoor dinner on a private terrace overlooking the Amalfi Coast at sunset."
+                src="/assets/chooseus1.jpeg"
+                alt="Why Choose Us 1"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
             <div className="image-matting absolute bottom-0 left-0 w-3/4 z-10 transform -rotate-3 border border-surface-container relative h-80">
-              <Image 
-                className="object-cover" 
+              <Image
+                className="object-cover"
                 fill
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRX664o9wLtpOFxL0wGXumKJI-ujwSvwf5E0X3FJvzxX85a4wZ1pvlkniXFvnDJH4JKHEV9FyZNblf4SWQaG98l2ZH1PscBprjKsALeVh47NqYXvSWOrXEmH56ukHbe5iDbqZTi5nRv4_gpz75xTTO6WaQlFfmwHOuXP-cFqTi3pT3LuqKlY06Fbo-r1syhLYPeaLt31O611TglGmkafxwBCrp72n9_7p8mMZ7GrFnAd2aUTd3WC4_Dg" 
-                alt="A minimalist architectural detail of a luxury riad in Marrakech, featuring intricate arched doorways and a serene turquoise pool reflecting the pale sandstone walls."
+                src="/assets/chooseus2.jpeg"
+                alt="Why Choose Us 2"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
@@ -159,15 +184,15 @@ export default async function About() {
       </section>
 
       {/* Atmospheric CTA */}
-      <section className="bg-primary text-on-primary py-32 relative">
+      {/* <section className="bg-primary text-on-primary py-32 relative">
         <div className="container mx-auto px-margin-mobile text-center relative z-10">
           <h2 className="font-headline-lg text-headline-lg mb-6">{aboutDict.ctaTitle}</h2>
           <p className="font-body-lg text-body-lg mb-10 max-w-2xl mx-auto opacity-80">{aboutDict.ctaSubtitle}</p>
-          <button className="px-12 py-4 border border-on-primary hover:bg-on-primary hover:text-primary transition-all duration-300 font-label-lg uppercase tracking-widest">
+          <Link href="/contact" className="inline-block px-12 py-4 border border-on-primary hover:bg-on-primary hover:text-primary transition-all duration-300 font-label-lg uppercase tracking-widest text-center">
             {aboutDict.ctaBtn}
-          </button>
+          </Link>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

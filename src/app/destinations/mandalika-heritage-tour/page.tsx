@@ -10,20 +10,20 @@ export default async function MandalikaHeritagePage() {
   const dict = await getDictionary(lang);
   const { mandalikaHeritage: g, destinations } = dict as any;
 
-  const waLinkText = lang === 'id' 
-      ? `Halo Palmer Travel, saya tertarik dengan paket ${g.title}` 
-      : `Hello Palmer Travel, I am interested in the ${g.title} package`;
+  const waLinkText = lang === 'id'
+    ? `Halo Travoscape, saya tertarik dengan paket ${g.title}`
+    : `Hello Travoscape, I am interested in the ${g.title} package`;
 
-  const waLink = `https://wa.me/6281234567890?text=${encodeURIComponent(waLinkText)}`;
+  const waLink = `https://wa.me/6285110520266?text=${encodeURIComponent(waLinkText)}`;
 
   return (
     <>
       <ScrollReveal />
-      
+
       {/* Hero Section */}
       <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center overflow-hidden">
-        <Image 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6hkU06CpOaIDu7GpKNBgP8bgd2q6LIP0WC1UzfNlxTXxyfN-ogSn4FoUiIgj632s4C3-pwKuqn4yXmgyWHMV3UeX4q2U3RusMYyNcFNH-sq4Yf3Mr_iSIEeoy66FqTMjyKAlSjjh4j5h6EcDOD6TLGs0nKV4rWTsWV10pLWe2Bu-n2z7l7TWvUAFctHwsOsqL9PbsIweU_pNAjl-DFbzpOzgpHxQkvKLUkU8qmACIQESRLRrMn_UXzw" 
+        <Image
+          src="/assets/mandalika1.jpeg"
           alt="Mandalika Heritage Tour"
           fill
           className="object-cover brightness-75"
@@ -37,7 +37,7 @@ export default async function MandalikaHeritagePage() {
 
       {/* Main Content */}
       <main className="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-content-gap">
-        
+
         {/* Left Column (Overview, Highlights, Itinerary) */}
         <div className="lg:col-span-8 space-y-16">
           <section className="reveal-on-scroll">
@@ -78,13 +78,13 @@ export default async function MandalikaHeritagePage() {
         {/* Right Column (Info Box) */}
         <aside className="lg:col-span-4 space-y-12">
           <div className="bg-surface-container-lowest p-8 border border-outline-variant reveal-on-scroll sticky top-32">
-            
+
             <div className="mb-10">
               <h3 className="font-headline-sm text-headline-sm mb-4 border-b border-secondary-container pb-2">{g.includedTitle}</h3>
               <ul className="space-y-4">
                 {g.included.map((inc: string, idx: number) => (
                   <li key={idx} className="flex gap-3 text-on-surface-variant font-body-sm items-start">
-                    <span className="material-symbols-outlined text-green-600 text-[20px] mt-0.5">done</span> 
+                    <span className="material-symbols-outlined text-green-600 text-[20px] mt-0.5">done</span>
                     <span className="flex-1">{inc}</span>
                   </li>
                 ))}
@@ -96,7 +96,7 @@ export default async function MandalikaHeritagePage() {
               <ul className="space-y-4">
                 {g.notIncluded.map((notInc: string, idx: number) => (
                   <li key={idx} className="flex gap-3 text-on-surface-variant font-body-sm items-start">
-                    <span className="material-symbols-outlined text-red-500 text-[20px] mt-0.5">close</span> 
+                    <span className="material-symbols-outlined text-red-500 text-[20px] mt-0.5">close</span>
                     <span className="flex-1">{notInc}</span>
                   </li>
                 ))}
@@ -111,7 +111,7 @@ export default async function MandalikaHeritagePage() {
                 ))}
               </ul>
             </div>
-            
+
             <div>
               <h3 className="font-headline-sm text-headline-sm mb-4 border-b border-secondary-container pb-2">{g.perfectForTitle}</h3>
               <div className="flex flex-wrap gap-2">

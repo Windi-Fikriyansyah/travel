@@ -110,16 +110,19 @@ export default async function Contact() {
             {/* Socials */}
             <div>
               <h3 className="font-headline-sm text-headline-sm mb-8 border-b border-secondary-container pb-4">{contactDict.followTitle}</h3>
-              <div className="flex gap-8">
-                <Link href="#" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
+              <div className="flex gap-8 flex-wrap">
+                <a href="https://www.instagram.com/travoscape?igsh=MWlpbnoxeHZqZW53Mw==" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
                   <span className="font-label-lg text-label-lg uppercase">Instagram</span>
-                </Link>
-                <Link href="#" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
-                  <span className="font-label-lg text-label-lg uppercase">Pinterest</span>
-                </Link>
-                <Link href="#" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
-                  <span className="font-label-lg text-label-lg uppercase">LinkedIn</span>
-                </Link>
+                </a>
+                <a href="https://wa.me/message/AZHNPNKH53WSJ1" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
+                  <span className="font-label-lg text-label-lg uppercase">WhatsApp</span>
+                </a>
+                <a href="https://www.tiktok.com/@travoscape?_r=1&_t=ZS-98KeJskekeC" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
+                  <span className="font-label-lg text-label-lg uppercase">TikTok</span>
+                </a>
+                <a href="https://www.facebook.com/share/18EusN1C8B/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors">
+                  <span className="font-label-lg text-label-lg uppercase">Facebook</span>
+                </a>
               </div>
             </div>
           </div>

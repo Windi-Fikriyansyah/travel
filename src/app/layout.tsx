@@ -8,8 +8,8 @@ import { cookies } from "next/headers";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://travel-example.com'),
   title: {
-    default: "Palmer Travel | Curated Journeys",
-    template: "%s | Palmer Travel"
+    default: "Travoscape | Curated Journeys",
+    template: "%s | Travoscape"
   },
   description: "Curated Journeys",
 };

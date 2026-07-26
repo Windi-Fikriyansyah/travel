@@ -53,12 +53,12 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
             </nav>
           </div>
           <Link href="/" className="flex items-center">
-            <Image src="/assets/logo.png" alt={dict.logo} width={250} height={80} className="h-8 md:h-10 w-auto object-contain scale-[1.5] md:scale-[2] origin-center" />
+            <Image src="/assets/logo.png" alt={dict.logo} width={250} height={80} className="h-10 md:h-11 w-auto object-contain scale-[2] md:scale-[2] origin-center" />
           </Link>
           <div className="flex gap-6 items-center flex-1 md:flex-none justify-end">
             <nav className="hidden md:flex gap-8 items-center">
               <Link href="/about" className={getLinkClass("/about")}>{dict.about}</Link>
-              <Link href="#" className={getLinkClass("/faq")}>{dict.faq}</Link>
+              <Link href="/faq" className={getLinkClass("/faq")}>{dict.faq}</Link>
               <Link href="/contact" className={getLinkClass("/contact")}>{dict.contact}</Link>
               
               {/* Language Switcher */}
@@ -93,7 +93,7 @@ export default function Header({ dict, lang }: { dict: Dictionary['header'], lan
           <Link onClick={() => setIsMenuOpen(false)} href="/contact" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.contact}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="/customize-trip" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.customizeTrip}</Link>
           <Link onClick={() => setIsMenuOpen(false)} href="/" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.home}</Link>
-          <Link onClick={() => setIsMenuOpen(false)} href="#" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.faq}</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/faq" className="text-on-surface font-headline-sm text-2xl hover:text-primary transition-colors">{dict.faq}</Link>
           
           {/* Mobile Language Switcher */}
           <div className="flex items-center gap-6 mt-8 pt-8 border-t border-outline-variant/30 w-full justify-center">
