@@ -23,17 +23,17 @@ export default async function Home() {
         </div>
         <div className="relative z-10 text-center max-w-4xl fade-in flex flex-col items-center">
           <h1 className="font-headline-lg text-headline-lg md:text-display-lg text-white drop-shadow-lg leading-tight italic mb-6">
-            Explore Lombok <br className="hidden md:block" /> Beyond the Ordinary
+            {dict.home.heroTitle1} <br className="hidden md:block" /> {dict.home.heroTitle2}
           </h1>
           <p className="text-white text-body-lg md:text-title-lg mb-8 max-w-2xl drop-shadow-md">
-            Discover Lombok through authentic local experiences, private transportation, and carefully curated journeys designed for modern travelers.
+            {dict.home.heroSubtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/destinations" className="px-8 py-3 bg-white text-primary font-label-lg hover:bg-white/90 transition-all duration-300 uppercase tracking-widest text-center">
-              Explore Experiences
+              {dict.home.exploreBtn}
             </Link>
             <Link href="/customize-trip" className="px-8 py-3 border border-white text-white font-label-lg hover:bg-white/10 transition-all duration-300 uppercase tracking-widest text-center">
-              Plan Your Trip
+              {dict.home.planBtn}
             </Link>
           </div>
         </div>
@@ -42,23 +42,23 @@ export default async function Home() {
       {/* About Section */}
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto">
         <div className="space-y-8">
-          <p className="text-label-md font-label-md text-secondary uppercase tracking-[0.2em]">About Travoscape</p>
+          <p className="text-label-md font-label-md text-secondary uppercase tracking-[0.2em]">{dict.home.aboutLabel}</p>
           <h2 className="font-headline-lg text-headline-lg text-primary italic leading-snug">
-            Travel Better. Explore Deeper.
+            {dict.home.aboutTitle}
           </h2>
           <div className="space-y-4 text-on-surface-variant font-body-md">
-            <p>Travoscape is a travel arrangement service based in Lombok, dedicated to creating seamless and authentic travel experiences for international travelers.</p>
-            <p>We specialize in private transportation, local guides, airport transfers, island adventures, and personalized itineraries—connecting visitors with the true beauty of Lombok beyond the typical tourist route.</p>
-            <p>Whether you're looking for a relaxing beach escape, cultural discovery, or an unforgettable island-hopping adventure, we're here to make every journey effortless.</p>
+            <p>{dict.home.aboutP1}</p>
+            <p>{dict.home.aboutP2}</p>
+            <p>{dict.home.aboutP3}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
             <div>
-              <h4 className="font-title-lg text-primary mb-2">Our Mission</h4>
-              <p className="text-body-sm text-on-surface-variant">To make exploring Lombok simple, authentic, and unforgettable by connecting travelers with trusted local experiences and personalized travel services.</p>
+              <h4 className="font-title-lg text-primary mb-2">{dict.home.missionTitle}</h4>
+              <p className="text-body-sm text-on-surface-variant">{dict.home.missionDesc}</p>
             </div>
             <div>
-              <h4 className="font-title-lg text-primary mb-2">Our Vision</h4>
-              <p className="text-body-sm text-on-surface-variant">To become the most trusted travel arrangement platform for Lombok, empowering local communities while delivering exceptional travel experiences for visitors from around the world.</p>
+              <h4 className="font-title-lg text-primary mb-2">{dict.home.visionTitle}</h4>
+              <p className="text-body-sm text-on-surface-variant">{dict.home.visionDesc}</p>
             </div>
           </div>
         </div>
@@ -77,14 +77,14 @@ export default async function Home() {
           {/* Why Choose Travoscape */}
           <div className="space-y-12">
             <h3 className="font-headline-md text-headline-md text-on-surface italic">
-              Why Choose Travoscape?
+              {dict.home.whyTitle}
             </h3>
             <div className="space-y-8">
               {[
-                { title: "Authentic Local Experience", desc: "Work with trusted local drivers and guides who know Lombok beyond the tourist map." },
-                { title: "Private & Flexible", desc: "Every journey is designed around your schedule—not ours." },
-                { title: "Transparent Pricing", desc: "No hidden fees. No unnecessary upselling." },
-                { title: "Reliable Support", desc: "From your arrival until departure, we're here whenever you need us." }
+                { title: dict.home.why1Title, desc: dict.home.why1Desc },
+                { title: dict.home.why2Title, desc: dict.home.why2Desc },
+                { title: dict.home.why3Title, desc: dict.home.why3Desc },
+                { title: dict.home.why4Title, desc: dict.home.why4Desc }
               ].map((item, idx) => (
                 <div key={idx} className="group border-b border-secondary-container pb-6 transition-all">
                   <div className="flex items-start gap-6">
@@ -102,15 +102,15 @@ export default async function Home() {
           {/* Our Core Values */}
           <div className="space-y-12">
             <h3 className="font-headline-md text-headline-md text-on-surface italic">
-              Our Core Values
+              {dict.home.valuesTitle}
             </h3>
             <div className="space-y-8">
               {[
-                { title: "Authenticity", desc: "We believe every journey should reflect the real beauty, culture, and people of Lombok." },
-                { title: "Hospitality", desc: "Every traveler deserves genuine warmth, comfort, and professional service from the moment they arrive." },
-                { title: "Reliability", desc: "We value punctuality, transparency, and consistency in every trip we organize." },
-                { title: "Sustainability", desc: "We support local communities and promote responsible tourism that preserves Lombok's natural beauty for future generations." },
-                { title: "Customer First", desc: "Every itinerary begins with your preferences. We don't just offer trips—we create experiences tailored to you." }
+                { title: dict.home.val1Title, desc: dict.home.val1Desc },
+                { title: dict.home.val2Title, desc: dict.home.val2Desc },
+                { title: dict.home.val3Title, desc: dict.home.val3Desc },
+                { title: dict.home.val4Title, desc: dict.home.val4Desc },
+                { title: dict.home.val5Title, desc: dict.home.val5Desc }
               ].map((item, idx) => (
                 <div key={idx} className="group border-b border-secondary-container pb-6 transition-all">
                   <div className="flex items-start gap-6">
@@ -130,17 +130,17 @@ export default async function Home() {
       {/* What We Offer Section */}
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto bg-surface-container-lowest">
         <div className="text-center mb-16 space-y-4">
-          <h3 className="font-headline-lg text-headline-lg text-primary italic">What We Offer</h3>
-          <p className="text-on-surface-variant font-body-lg max-w-2xl mx-auto">Discover the perfect service for your Lombok adventure.</p>
+          <h3 className="font-headline-lg text-headline-lg text-primary italic">{dict.home.offerTitle}</h3>
+          <p className="text-on-surface-variant font-body-lg max-w-2xl mx-auto">{dict.home.offerSubtitle}</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            { title: "Airport Transfer", desc: "Comfortable airport pickup and drop-off with professional local drivers." },
-            { title: "Private Driver", desc: "Explore Lombok at your own pace with a dedicated private driver." },
-            { title: "Local Guide", desc: "Discover authentic culture and hidden destinations with experienced local guides." },
-            { title: "Day Trips", desc: "Carefully designed one-day adventures covering Lombok's most iconic destinations." },
-            { title: "Multi-Day Packages", desc: "Complete travel experiences designed for 2, 3, or more unforgettable days." },
-            { title: "Personalized Itinerary", desc: "Tell us your interests, and we'll create a fully customized journey just for you." }
+            { title: dict.home.offer1Title, desc: dict.home.offer1Desc },
+            { title: dict.home.offer2Title, desc: dict.home.offer2Desc },
+            { title: dict.home.offer3Title, desc: dict.home.offer3Desc },
+            { title: dict.home.offer4Title, desc: dict.home.offer4Desc },
+            { title: dict.home.offer5Title, desc: dict.home.offer5Desc },
+            { title: dict.home.offer6Title, desc: dict.home.offer6Desc }
           ].map((item, idx) => (
             <div key={idx} className="p-8 border border-secondary-container hover:bg-surface-container-low transition-colors duration-300 flex flex-col justify-between">
               <div>
@@ -155,16 +155,16 @@ export default async function Home() {
       {/* Our Promise & Footer Quote */}
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto text-center">
         <div className="max-w-3xl mx-auto space-y-8">
-          <p className="text-label-md font-label-md text-secondary uppercase tracking-[0.2em]">Our Promise</p>
+          <p className="text-label-md font-label-md text-secondary uppercase tracking-[0.2em]">{dict.home.promiseLabel}</p>
           <h3 className="font-headline-md text-headline-md text-primary italic leading-relaxed">
-            "We don't believe every traveler should follow the same itinerary"
+            {dict.home.promiseQuote}
           </h3>
           <p className="text-body-lg text-on-surface-variant">
-            That's why every Travoscape experience is designed with flexibility, local insight, and genuine hospitality—so you can discover Lombok in a way that feels personal, effortless, and unforgettable.
+            {dict.home.promiseDesc}
           </p>
           <div className="pt-16 border-t border-secondary-container mt-16">
             <p className="font-headline-sm text-headline-sm text-secondary italic">
-              "Every destination has a story. Let Travoscape help you discover yours."
+              {dict.home.footerQuote}
             </p>
           </div>
         </div>

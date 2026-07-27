@@ -28,17 +28,17 @@ export default async function CustomizeTrip() {
             {dict.header.customizeTrip}
           </span>
           <h1 className="font-display-lg text-4xl md:text-5xl text-on-surface mb-6 leading-tight drop-shadow-md">
-            Design Your Dream <span className="italic text-primary drop-shadow-none">Lombok</span> Getaway
+            {dict.customize.heroTitle1}<span className="italic text-primary drop-shadow-none">Lombok</span>{dict.customize.heroTitle2}
           </h1>
           <p className="font-body-lg text-on-surface-variant max-w-2xl mx-auto drop-shadow-sm bg-surface/30 backdrop-blur-sm p-4 rounded-xl">
-            Tell us what you love, and our local experts will craft a personalized itinerary just for you.
+            {dict.customize.heroSubtitle}
           </p>
         </div>
       </section>
 
       {/* Form Section */}
       <section className="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop mb-section-gap">
-        <CustomizeTripForm />
+        <CustomizeTripForm dict={dict.customize} lang={lang} />
       </section>
     </>
   );
